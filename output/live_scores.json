@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T20:50:11.328223+00:00",
+  "updated_at": "2026-06-20T23:36:24.248468+00:00",
   "match_count": 74,
   "matches": [
     {
@@ -14296,17 +14296,447 @@
       "away_id": "19",
       "home_flag": "https://flagcdn.com/w80/de.png",
       "away_flag": "https://flagcdn.com/w80/ci.png",
-      "home_score": "0",
+      "home_score": "2",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/20/2026 16:00",
       "group": "E",
       "matchday": "2",
       "type": "group",
       "stadium": "BMO Field",
       "stadium_city": "Toronto",
-      "stadium_id": "12"
+      "stadium_id": "12",
+      "stats": {
+        "possession": {
+          "home": 53,
+          "away": 47
+        },
+        "shots": {
+          "home": 9,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 5,
+          "away": 3
+        },
+        "passes": {
+          "home": 274,
+          "away": 253
+        },
+        "pass_accuracy": {
+          "home": 92,
+          "away": 89
+        },
+        "xG": {
+          "home": 1.8,
+          "away": 0.97
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 18
+        },
+        "corners": {
+          "home": 3,
+          "away": 5
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 13,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 15,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 11,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Sébastien Haller"
+        },
+        {
+          "minute": 12,
+          "type": "yellow_card",
+          "team": "Germany",
+          "player": "Leroy Sané"
+        },
+        {
+          "minute": 23,
+          "type": "goal",
+          "team": "Germany",
+          "player": "Serge Gnabry"
+        },
+        {
+          "minute": 30,
+          "type": "goal",
+          "team": "Germany",
+          "player": "Timo Werner"
+        },
+        {
+          "minute": 48,
+          "type": "goal",
+          "team": "Ivory Coast",
+          "player": "Seko Fofana"
+        },
+        {
+          "minute": 76,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Yahia Fofana"
+        },
+        {
+          "minute": 89,
+          "type": "yellow_card",
+          "team": "Ivory Coast",
+          "player": "Eric Bailly"
+        }
+      ],
+      "players": [
+        {
+          "team": "Germany",
+          "number": 1,
+          "name": "Manuel Neuer",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 2,
+          "name": "Antonio Rüdiger",
+          "position": "LB",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 52,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 3,
+          "name": "David Raum",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 74,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 4,
+          "name": "Matthias Ginter",
+          "position": "CB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 60,
+          "pass_accuracy": 84,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 5,
+          "name": "Joshua Kimmich",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 58,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 6,
+          "name": "Leon Goretzka",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 7,
+          "name": "Serge Gnabry",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 8,
+          "name": "Thomas Müller",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 9,
+          "name": "Kai Havertz",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 10,
+          "name": "Timo Werner",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 30,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Germany",
+          "number": 11,
+          "name": "Leroy Sané",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 1,
+          "name": "Yahia Fofana",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 2,
+          "name": "Serge Aurier",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 28,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 3,
+          "name": "Eric Bailly",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 4,
+          "name": "Wilfried Singo",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 5,
+          "name": "Willy Boly",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 55,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 6,
+          "name": "Seko Fofana",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 7,
+          "name": "Franck Kessié",
+          "position": "CM",
+          "minutes": 66,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 72,
+          "tackles": 5,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 8,
+          "name": "Max Gradel",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 9,
+          "name": "Sébastien Haller",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 10,
+          "name": "Nicolas Pépé",
+          "position": "ST",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 58,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ivory Coast",
+          "number": 11,
+          "name": "Christian Kouamé",
+          "position": "ST",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 49,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "34",

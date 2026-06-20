@@ -218,25 +218,25 @@
         {
           "name": "Germany",
           "flag": "https://flagcdn.com/w80/de.png",
-          "mp": 1,
-          "w": 1,
+          "mp": 2,
+          "w": 2,
           "d": 0,
           "l": 0,
-          "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "pts": 3
+          "gf": 9,
+          "ga": 2,
+          "gd": 7,
+          "pts": 6
         },
         {
           "name": "Ivory Coast",
           "flag": "https://flagcdn.com/w80/ci.png",
-          "mp": 1,
+          "mp": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
           "pts": 3
         },
         {
