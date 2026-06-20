@@ -116,13 +116,13 @@ a{color:inherit;text-decoration:none}
 @media(max-width:768px){.ad-top{max-width:320px;min-height:50px}.ad-side{max-width:300px;minheight:100px}.affiliate-grid{grid-template-columns:repeat(2,1fr)}.live-banner-in{flex-direction:column;align-items:flex-start;gap:6px}.live-teams{font-size:.75rem}}
 </style></head><body>
 <div class="topbar"><div class="topbar-in">
-  <a href="/wc26-hub/" class="logo">WC26</a>
-  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <div class="nav-links" id="navLinks">
-    <a href="/wc26-hub/" class="">▶ HOME</a>
-    <a href="/wc26-hub/live.html" class="">▶ LIVE</a>
-    <a href="/wc26-hub/standings.html" class="">▶ STANDINGS</a>
-    <a href="/wc26-hub/stats.html" class="on">▶ STATS</a>
+  <a href="/" class="logo">WC26</a>
+  <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
+  <nav class="nav">
+    <a href="/" class="">▶ HOME</a>
+    <a href="/live.html" class="">▶ LIVE</a>
+    <a href="/standings.html" class="">▶ STANDINGS</a>
+    <a href="/stats.html" class="on">▶ STATS</a>
   </nav>
 </div></div>
 <div class="shell"><h1 style="font-size:1.5rem;font-weight:800;margin-bottom:16px">Tournament Stats</h1><div class="ad-slot ad-inline" id="ad-stats-top">

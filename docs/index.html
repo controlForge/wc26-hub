@@ -116,13 +116,13 @@ a{color:inherit;text-decoration:none}
 @media(max-width:768px){.ad-top{max-width:320px;min-height:50px}.ad-side{max-width:300px;minheight:100px}.affiliate-grid{grid-template-columns:repeat(2,1fr)}.live-banner-in{flex-direction:column;align-items:flex-start;gap:6px}.live-teams{font-size:.75rem}}
 </style></head><body>
 <div class="topbar"><div class="topbar-in">
-  <a href="/wc26-hub/" class="logo">WC26</a>
-  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <div class="nav-links" id="navLinks">
-    <a href="/wc26-hub/" class="on">▶ HOME</a>
-    <a href="/wc26-hub/live.html" class="">▶ LIVE</a>
-    <a href="/wc26-hub/standings.html" class="">▶ STANDINGS</a>
-    <a href="/wc26-hub/stats.html" class="">▶ STATS</a>
+  <a href="/" class="logo">WC26</a>
+  <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
+  <nav class="nav">
+    <a href="/" class="on">▶ HOME</a>
+    <a href="/live.html" class="">▶ LIVE</a>
+    <a href="/standings.html" class="">▶ STANDINGS</a>
+    <a href="/stats.html" class="">▶ STATS</a>
   </nav>
 </div></div>
 <div class="shell"><div class="pitch-hero">
@@ -170,46 +170,46 @@ requestAnimationFrame(loop);})();
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track"><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span></div></div></div></div><div class="quick-nav"><a href="/wc26-hub/live.html"><div class="icon">🔴</div><div class="lbl">LIVE CENTER</div></a><a href="/wc26-hub/standings.html"><div class="icon">📊</div><div class="lbl">STANDINGS</div></a><a href="/wc26-hub/stats.html"><div class="icon">📈</div><div class="lbl">STATS</div></a><a href="/wc26-hub/"><div class="icon">👟</div><div class="lbl">BEST BOOTS</div></a></div><div class="ad-slot ad-inline" id="ad-home-nav">
+</div><div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track"><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Mexico</strong> <span class="ticker-score">1-0</span> <strong>South Korea</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Canada</strong> <span class="ticker-score">6-0</span> <strong>Qatar</strong> <sup>FT</sup></span></div></div></div></div><div class="quick-nav"><a href="/live.html"><div class="icon">🔴</div><div class="lbl">LIVE CENTER</div></a><a href="/standings.html"><div class="icon">📊</div><div class="lbl">STANDINGS</div></a><a href="/stats.html"><div class="icon">📈</div><div class="lbl">STATS</div></a><a href="/"><div class="icon">👟</div><div class="lbl">BEST BOOTS</div></a></div><div class="ad-slot ad-inline" id="ad-home-nav">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div class="sect">▸▸ RECENT & UPCOMING</div><div class="match-grid"><a href="/wc26-hub/match/35.html" class="match-card">
+</div><div class="sect">▸▸ RECENT & UPCOMING</div><div class="match-grid"><a href="/match/35.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nl.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Netherlands</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Sweden <img src="https://flagcdn.com/w80/se.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T17:00:00Z" title="Kickoff: Jun 20 · 21:00 GST">📅 <span class="time-display">Jun 20 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a><a href="/wc26-hub/match/33.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T17:00:00Z" title="Kickoff: Jun 20 · 21:00 GST">📅 <span class="time-display">Jun 20 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a><a href="/match/33.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp E · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/de.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Germany</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Ivory Coast <img src="https://flagcdn.com/w80/ci.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">📅 <span class="time-display">Jun 21 · 00:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a><a href="/wc26-hub/match/32.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">📅 <span class="time-display">Jun 21 · 00:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a><a href="/match/32.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Turkey</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Paraguay <img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a><a href="/wc26-hub/match/29.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a><a href="/match/29.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Brazil</span></div>
     <div class="match-score">3—0</div>
     <div style="text-align:left"><span class="team-name">Haiti <img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a><a href="/wc26-hub/match/30.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a><a href="/match/30.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-sct.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Scotland</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Morocco <img src="https://flagcdn.com/w80/ma.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T22:00:00Z" title="Kickoff: Jun 20 · 02:00 GST">📅 <span class="time-display">Jun 20 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a><a href="/wc26-hub/match/31.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T22:00:00Z" title="Kickoff: Jun 20 · 02:00 GST">📅 <span class="time-display">Jun 20 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a><a href="/match/31.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD2</span></div>
   <div class="match-teams">
@@ -224,7 +224,7 @@ requestAnimationFrame(loop);})();
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div style="text-align:center;font-size:.65rem;color:var(--text2);margin-top:16px">74 matches · Updated 2026-06-20T13:40:24.851962+00:00</div></div>
+</div><div style="text-align:center;font-size:.65rem;color:var(--text2);margin-top:16px">74 matches · Updated 2026-06-20T13:13:19.498913+00:00</div></div>
 <div class="footer">WC26 HUB · DATA: WORLDUP26.IR · NOT AFFILIATED WITH FIFA · BUILT WITH ⚽ AND ☕</div>
 
 <script>

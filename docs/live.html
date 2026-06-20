@@ -116,533 +116,533 @@ a{color:inherit;text-decoration:none}
 @media(max-width:768px){.ad-top{max-width:320px;min-height:50px}.ad-side{max-width:300px;minheight:100px}.affiliate-grid{grid-template-columns:repeat(2,1fr)}.live-banner-in{flex-direction:column;align-items:flex-start;gap:6px}.live-teams{font-size:.75rem}}
 </style></head><body>
 <div class="topbar"><div class="topbar-in">
-  <a href="/wc26-hub/" class="logo">WC26</a>
-  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <div class="nav-links" id="navLinks">
-    <a href="/wc26-hub/" class="">▶ HOME</a>
-    <a href="/wc26-hub/live.html" class="on">▶ LIVE</a>
-    <a href="/wc26-hub/standings.html" class="">▶ STANDINGS</a>
-    <a href="/wc26-hub/stats.html" class="">▶ STATS</a>
+  <a href="/" class="logo">WC26</a>
+  <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
+  <nav class="nav">
+    <a href="/" class="">▶ HOME</a>
+    <a href="/live.html" class="on">▶ LIVE</a>
+    <a href="/standings.html" class="">▶ STANDINGS</a>
+    <a href="/stats.html" class="">▶ STATS</a>
   </nav>
 </div></div>
 <div class="shell"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
-  <div><h1 style="font-size:1.5rem;font-weight:800;margin-bottom:2px">Match Center</h1><p style="font-size:.65rem;color:var(--text2)">74 matches · Last updated 2026-06-20T13:40:24.851962+00:00</p></div>
+  <div><h1 style="font-size:1.5rem;font-weight:800;margin-bottom:2px">Match Center</h1><p style="font-size:.65rem;color:var(--text2)">74 matches · Last updated 2026-06-20T13:13:19.498913+00:00</p></div>
   <div style="display:flex;gap:6px"><span class="match-tag tag-ft">✅ 32 FT</span><span class="match-tag tag-sc">⏳ 42 Upcoming</span></div></div><div class="filter"><button class="filter-btn on" onclick="filterMatches('all',this)">ALL</button><button class="filter-btn" onclick="filterMatches('finished',this)">✅ FINISHED</button><button class="filter-btn" onclick="filterMatches('scheduled',this)">⏳ UPCOMING</button></div><div class="ad-slot ad-inline" id="ad-live-filter">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div class="match-grid" id="matchgrid"><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/32.html" class="match-card">
+</div><div class="match-grid" id="matchgrid"><div class="match-card-wrap" data-status="finished"><a href="/match/32.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Turkey</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Paraguay <img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/29.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/29.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Brazil</span></div>
     <div class="match-score">3—0</div>
     <div style="text-align:left"><span class="team-name">Haiti <img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/30.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/30.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-sct.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Scotland</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Morocco <img src="https://flagcdn.com/w80/ma.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T22:00:00Z" title="Kickoff: Jun 20 · 02:00 GST">📅 <span class="time-display">Jun 20 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/31.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T22:00:00Z" title="Kickoff: Jun 20 · 02:00 GST">📅 <span class="time-display">Jun 20 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/31.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/us.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> United States</span></div>
     <div class="match-score">2—0</div>
     <div style="text-align:left"><span class="team-name">Australia <img src="https://flagcdn.com/w80/au.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T19:00:00Z" title="Kickoff: Jun 19 · 23:00 GST">📅 <span class="time-display">Jun 19 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/25.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T19:00:00Z" title="Kickoff: Jun 19 · 23:00 GST">📅 <span class="time-display">Jun 19 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/25.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp A · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/mx.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Mexico</span></div>
     <div class="match-score">1—0</div>
     <div style="text-align:left"><span class="team-name">South Korea <img src="https://flagcdn.com/w80/kr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T01:00:00Z" title="Kickoff: Jun 19 · 05:00 GST">📅 <span class="time-display">Jun 19 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/27.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-19T01:00:00Z" title="Kickoff: Jun 19 · 05:00 GST">📅 <span class="time-display">Jun 19 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/27.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp B · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ca.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Canada</span></div>
     <div class="match-score">6—0</div>
     <div style="text-align:left"><span class="team-name">Qatar <img src="https://flagcdn.com/w80/qa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T22:00:00Z" title="Kickoff: Jun 19 · 02:00 GST">📅 <span class="time-display">Jun 19 · 02:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/26.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T22:00:00Z" title="Kickoff: Jun 19 · 02:00 GST">📅 <span class="time-display">Jun 19 · 02:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/26.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp B · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ch.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Switzerland</span></div>
     <div class="match-score">4—1</div>
     <div style="text-align:left"><span class="team-name">Bosnia and Herzegovina <img src="https://flagcdn.com/w80/ba.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T19:00:00Z" title="Kickoff: Jun 18 · 23:00 GST">📅 <span class="time-display">Jun 18 · 23:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/28.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T19:00:00Z" title="Kickoff: Jun 18 · 23:00 GST">📅 <span class="time-display">Jun 18 · 23:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/28.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp A · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/cz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Czech Republic</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">South Africa <img src="https://flagcdn.com/w80/za.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T16:00:00Z" title="Kickoff: Jun 18 · 20:00 GST">📅 <span class="time-display">Jun 18 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/23.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T16:00:00Z" title="Kickoff: Jun 18 · 20:00 GST">📅 <span class="time-display">Jun 18 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/23.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp K · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/uz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Uzbekistan</span></div>
     <div class="match-score">1—3</div>
     <div style="text-align:left"><span class="team-name">Colombia <img src="https://flagcdn.com/w80/co.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T02:00:00Z" title="Kickoff: Jun 18 · 06:00 GST">📅 <span class="time-display">Jun 18 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/24.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-18T02:00:00Z" title="Kickoff: Jun 18 · 06:00 GST">📅 <span class="time-display">Jun 18 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/24.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp L · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gh.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ghana</span></div>
     <div class="match-score">1—0</div>
     <div style="text-align:left"><span class="team-name">Panama <img src="https://flagcdn.com/w80/pa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T23:00:00Z" title="Kickoff: Jun 18 · 03:00 GST">📅 <span class="time-display">Jun 18 · 03:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/22.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T23:00:00Z" title="Kickoff: Jun 18 · 03:00 GST">📅 <span class="time-display">Jun 18 · 03:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/22.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp L · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-eng.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> England</span></div>
     <div class="match-score">4—2</div>
     <div style="text-align:left"><span class="team-name">Croatia <img src="https://flagcdn.com/w80/hr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T20:00:00Z" title="Kickoff: Jun 18 · 00:00 GST">📅 <span class="time-display">Jun 18 · 00:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/21.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T20:00:00Z" title="Kickoff: Jun 18 · 00:00 GST">📅 <span class="time-display">Jun 18 · 00:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/21.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp K · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/pt.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Portugal</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Democratic Republic of the Congo <img src="https://flagcdn.com/w80/cd.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T17:00:00Z" title="Kickoff: Jun 17 · 21:00 GST">📅 <span class="time-display">Jun 17 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/20.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T17:00:00Z" title="Kickoff: Jun 17 · 21:00 GST">📅 <span class="time-display">Jun 17 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/20.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp J · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/at.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Austria</span></div>
     <div class="match-score">3—1</div>
     <div style="text-align:left"><span class="team-name">Jordan <img src="https://flagcdn.com/w80/jo.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T04:00:00Z" title="Kickoff: Jun 17 · 08:00 GST">📅 <span class="time-display">Jun 17 · 08:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/19.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T04:00:00Z" title="Kickoff: Jun 17 · 08:00 GST">📅 <span class="time-display">Jun 17 · 08:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/19.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp J · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ar.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Argentina</span></div>
     <div class="match-score">3—0</div>
     <div style="text-align:left"><span class="team-name">Algeria <img src="https://flagcdn.com/w80/dz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T01:00:00Z" title="Kickoff: Jun 17 · 05:00 GST">📅 <span class="time-display">Jun 17 · 05:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/18.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-17T01:00:00Z" title="Kickoff: Jun 17 · 05:00 GST">📅 <span class="time-display">Jun 17 · 05:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/18.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp I · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/iq.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Iraq</span></div>
     <div class="match-score">1—4</div>
     <div style="text-align:left"><span class="team-name">Norway <img src="https://flagcdn.com/w80/no.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T22:00:00Z" title="Kickoff: Jun 17 · 02:00 GST">📅 <span class="time-display">Jun 17 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/17.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T22:00:00Z" title="Kickoff: Jun 17 · 02:00 GST">📅 <span class="time-display">Jun 17 · 02:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/17.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp I · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/fr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> France</span></div>
     <div class="match-score">3—1</div>
     <div style="text-align:left"><span class="team-name">Senegal <img src="https://flagcdn.com/w80/sn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T19:00:00Z" title="Kickoff: Jun 16 · 23:00 GST">📅 <span class="time-display">Jun 16 · 23:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/13.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T19:00:00Z" title="Kickoff: Jun 16 · 23:00 GST">📅 <span class="time-display">Jun 16 · 23:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/13.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp G · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ir.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Iran</span></div>
     <div class="match-score">2—2</div>
     <div style="text-align:left"><span class="team-name">New Zealand <img src="https://flagcdn.com/w80/nz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T01:00:00Z" title="Kickoff: Jun 16 · 05:00 GST">📅 <span class="time-display">Jun 16 · 05:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/16.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-16T01:00:00Z" title="Kickoff: Jun 16 · 05:00 GST">📅 <span class="time-display">Jun 16 · 05:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/16.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp H · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/sa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Saudi Arabia</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Uruguay <img src="https://flagcdn.com/w80/uy.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T22:00:00Z" title="Kickoff: Jun 16 · 02:00 GST">📅 <span class="time-display">Jun 16 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/15.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T22:00:00Z" title="Kickoff: Jun 16 · 02:00 GST">📅 <span class="time-display">Jun 16 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/15.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp G · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/be.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Belgium</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Egypt <img src="https://flagcdn.com/w80/eg.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T19:00:00Z" title="Kickoff: Jun 15 · 23:00 GST">📅 <span class="time-display">Jun 15 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/14.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T19:00:00Z" title="Kickoff: Jun 15 · 23:00 GST">📅 <span class="time-display">Jun 15 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/14.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp H · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/es.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Spain</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Cape Verde <img src="https://flagcdn.com/w80/cv.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T16:00:00Z" title="Kickoff: Jun 15 · 20:00 GST">📅 <span class="time-display">Jun 15 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/12.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T16:00:00Z" title="Kickoff: Jun 15 · 20:00 GST">📅 <span class="time-display">Jun 15 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/12.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp F · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/se.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Sweden</span></div>
     <div class="match-score">5—1</div>
     <div style="text-align:left"><span class="team-name">Tunisia <img src="https://flagcdn.com/w80/tn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T02:00:00Z" title="Kickoff: Jun 15 · 06:00 GST">📅 <span class="time-display">Jun 15 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/9.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-15T02:00:00Z" title="Kickoff: Jun 15 · 06:00 GST">📅 <span class="time-display">Jun 15 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/9.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp E · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ci.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ivory Coast</span></div>
     <div class="match-score">1—0</div>
     <div style="text-align:left"><span class="team-name">Ecuador <img src="https://flagcdn.com/w80/ec.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T23:00:00Z" title="Kickoff: Jun 15 · 03:00 GST">📅 <span class="time-display">Jun 15 · 03:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/11.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T23:00:00Z" title="Kickoff: Jun 15 · 03:00 GST">📅 <span class="time-display">Jun 15 · 03:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/11.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp F · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nl.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Netherlands</span></div>
     <div class="match-score">2—2</div>
     <div style="text-align:left"><span class="team-name">Japan <img src="https://flagcdn.com/w80/jp.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T20:00:00Z" title="Kickoff: Jun 15 · 00:00 GST">📅 <span class="time-display">Jun 15 · 00:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/10.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T20:00:00Z" title="Kickoff: Jun 15 · 00:00 GST">📅 <span class="time-display">Jun 15 · 00:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/10.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp E · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/de.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Germany</span></div>
     <div class="match-score">7—1</div>
     <div style="text-align:left"><span class="team-name">Curaçao <img src="https://flagcdn.com/w80/cw.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T17:00:00Z" title="Kickoff: Jun 14 · 21:00 GST">📅 <span class="time-display">Jun 14 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/6.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T17:00:00Z" title="Kickoff: Jun 14 · 21:00 GST">📅 <span class="time-display">Jun 14 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/6.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/au.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Australia</span></div>
     <div class="match-score">2—0</div>
     <div style="text-align:left"><span class="team-name">Turkey <img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T04:00:00Z" title="Kickoff: Jun 14 · 08:00 GST">📅 <span class="time-display">Jun 14 · 08:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/5.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T04:00:00Z" title="Kickoff: Jun 14 · 08:00 GST">📅 <span class="time-display">Jun 14 · 08:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/5.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Haiti</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Scotland <img src="https://flagcdn.com/w80/gb-sct.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T01:00:00Z" title="Kickoff: Jun 14 · 05:00 GST">📅 <span class="time-display">Jun 14 · 05:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/7.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-14T01:00:00Z" title="Kickoff: Jun 14 · 05:00 GST">📅 <span class="time-display">Jun 14 · 05:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/7.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp C · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Brazil</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Morocco <img src="https://flagcdn.com/w80/ma.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T22:00:00Z" title="Kickoff: Jun 14 · 02:00 GST">📅 <span class="time-display">Jun 14 · 02:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/8.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T22:00:00Z" title="Kickoff: Jun 14 · 02:00 GST">📅 <span class="time-display">Jun 14 · 02:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/8.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp B · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/qa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Qatar</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Switzerland <img src="https://flagcdn.com/w80/ch.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T19:00:00Z" title="Kickoff: Jun 13 · 23:00 GST">📅 <span class="time-display">Jun 13 · 23:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/4.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T19:00:00Z" title="Kickoff: Jun 13 · 23:00 GST">📅 <span class="time-display">Jun 13 · 23:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/4.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp D · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/us.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> United States</span></div>
     <div class="match-score">4—1</div>
     <div style="text-align:left"><span class="team-name">Paraguay <img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T01:00:00Z" title="Kickoff: Jun 13 · 05:00 GST">📅 <span class="time-display">Jun 13 · 05:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/3.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-13T01:00:00Z" title="Kickoff: Jun 13 · 05:00 GST">📅 <span class="time-display">Jun 13 · 05:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/3.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp B · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ca.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Canada</span></div>
     <div class="match-score">1—1</div>
     <div style="text-align:left"><span class="team-name">Bosnia and Herzegovina <img src="https://flagcdn.com/w80/ba.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-12T19:00:00Z" title="Kickoff: Jun 12 · 23:00 GST">📅 <span class="time-display">Jun 12 · 23:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/2.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-12T19:00:00Z" title="Kickoff: Jun 12 · 23:00 GST">📅 <span class="time-display">Jun 12 · 23:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/2.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp A · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/kr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> South Korea</span></div>
     <div class="match-score">2—1</div>
     <div style="text-align:left"><span class="team-name">Czech Republic <img src="https://flagcdn.com/w80/cz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-12T02:00:00Z" title="Kickoff: Jun 12 · 06:00 GST">📅 <span class="time-display">Jun 12 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/wc26-hub/match/1.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-12T02:00:00Z" title="Kickoff: Jun 12 · 06:00 GST">📅 <span class="time-display">Jun 12 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="finished"><a href="/match/1.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp A · MD1</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/mx.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Mexico</span></div>
     <div class="match-score">2—0</div>
     <div style="text-align:left"><span class="team-name">South Africa <img src="https://flagcdn.com/w80/za.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-11T19:00:00Z" title="Kickoff: Jun 11 · 23:00 GST">📅 <span class="time-display">Jun 11 · 23:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/35.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-11T19:00:00Z" title="Kickoff: Jun 11 · 23:00 GST">📅 <span class="time-display">Jun 11 · 23:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/35.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nl.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Netherlands</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Sweden <img src="https://flagcdn.com/w80/se.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T17:00:00Z" title="Kickoff: Jun 20 · 21:00 GST">📅 <span class="time-display">Jun 20 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/33.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T17:00:00Z" title="Kickoff: Jun 20 · 21:00 GST">📅 <span class="time-display">Jun 20 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/33.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp E · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/de.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Germany</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Ivory Coast <img src="https://flagcdn.com/w80/ci.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">📅 <span class="time-display">Jun 21 · 00:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/34.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">📅 <span class="time-display">Jun 21 · 00:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/34.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp E · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ec.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ecuador</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Curaçao <img src="https://flagcdn.com/w80/cw.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T00:00:00Z" title="Kickoff: Jun 21 · 04:00 GST">📅 <span class="time-display">Jun 21 · 04:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/36.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T00:00:00Z" title="Kickoff: Jun 21 · 04:00 GST">📅 <span class="time-display">Jun 21 · 04:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/36.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Tunisia</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Japan <img src="https://flagcdn.com/w80/jp.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T04:00:00Z" title="Kickoff: Jun 21 · 08:00 GST">📅 <span class="time-display">Jun 21 · 08:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/39.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T04:00:00Z" title="Kickoff: Jun 21 · 08:00 GST">📅 <span class="time-display">Jun 21 · 08:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/39.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp H · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/es.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Spain</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Saudi Arabia <img src="https://flagcdn.com/w80/sa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T16:00:00Z" title="Kickoff: Jun 21 · 20:00 GST">📅 <span class="time-display">Jun 21 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/37.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T16:00:00Z" title="Kickoff: Jun 21 · 20:00 GST">📅 <span class="time-display">Jun 21 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/37.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp G · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/be.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Belgium</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Iran <img src="https://flagcdn.com/w80/ir.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T19:00:00Z" title="Kickoff: Jun 21 · 23:00 GST">📅 <span class="time-display">Jun 21 · 23:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/40.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T19:00:00Z" title="Kickoff: Jun 21 · 23:00 GST">📅 <span class="time-display">Jun 21 · 23:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/40.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp H · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/uy.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Uruguay</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Cape Verde <img src="https://flagcdn.com/w80/cv.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T22:00:00Z" title="Kickoff: Jun 22 · 02:00 GST">📅 <span class="time-display">Jun 22 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/38.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T22:00:00Z" title="Kickoff: Jun 22 · 02:00 GST">📅 <span class="time-display">Jun 22 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/38.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp G · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> New Zealand</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Egypt <img src="https://flagcdn.com/w80/eg.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T01:00:00Z" title="Kickoff: Jun 22 · 05:00 GST">📅 <span class="time-display">Jun 22 · 05:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/43.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T01:00:00Z" title="Kickoff: Jun 22 · 05:00 GST">📅 <span class="time-display">Jun 22 · 05:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/43.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp J · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ar.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Argentina</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Austria <img src="https://flagcdn.com/w80/at.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T17:00:00Z" title="Kickoff: Jun 22 · 21:00 GST">📅 <span class="time-display">Jun 22 · 21:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/41.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T17:00:00Z" title="Kickoff: Jun 22 · 21:00 GST">📅 <span class="time-display">Jun 22 · 21:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/41.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp I · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/fr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> France</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Iraq <img src="https://flagcdn.com/w80/iq.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T21:00:00Z" title="Kickoff: Jun 23 · 01:00 GST">📅 <span class="time-display">Jun 23 · 01:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/42.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-22T21:00:00Z" title="Kickoff: Jun 23 · 01:00 GST">📅 <span class="time-display">Jun 23 · 01:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/42.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp I · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/no.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Norway</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Senegal <img src="https://flagcdn.com/w80/sn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T00:00:00Z" title="Kickoff: Jun 23 · 04:00 GST">📅 <span class="time-display">Jun 23 · 04:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/44.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T00:00:00Z" title="Kickoff: Jun 23 · 04:00 GST">📅 <span class="time-display">Jun 23 · 04:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/44.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp J · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/jo.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Jordan</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Algeria <img src="https://flagcdn.com/w80/dz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T03:00:00Z" title="Kickoff: Jun 23 · 07:00 GST">📅 <span class="time-display">Jun 23 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/45.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T03:00:00Z" title="Kickoff: Jun 23 · 07:00 GST">📅 <span class="time-display">Jun 23 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/45.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp K · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/pt.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Portugal</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Uzbekistan <img src="https://flagcdn.com/w80/uz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T17:00:00Z" title="Kickoff: Jun 23 · 21:00 GST">📅 <span class="time-display">Jun 23 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/48.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T17:00:00Z" title="Kickoff: Jun 23 · 21:00 GST">📅 <span class="time-display">Jun 23 · 21:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/48.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp L · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-eng.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> England</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Ghana <img src="https://flagcdn.com/w80/gh.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T20:00:00Z" title="Kickoff: Jun 24 · 00:00 GST">📅 <span class="time-display">Jun 24 · 00:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/46.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T20:00:00Z" title="Kickoff: Jun 24 · 00:00 GST">📅 <span class="time-display">Jun 24 · 00:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/46.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp L · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/pa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Panama</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Croatia <img src="https://flagcdn.com/w80/hr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T23:00:00Z" title="Kickoff: Jun 24 · 03:00 GST">📅 <span class="time-display">Jun 24 · 03:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/47.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-23T23:00:00Z" title="Kickoff: Jun 24 · 03:00 GST">📅 <span class="time-display">Jun 24 · 03:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/47.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp K · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/co.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Colombia</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Democratic Republic of the Congo <img src="https://flagcdn.com/w80/cd.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T02:00:00Z" title="Kickoff: Jun 24 · 06:00 GST">📅 <span class="time-display">Jun 24 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/53.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T02:00:00Z" title="Kickoff: Jun 24 · 06:00 GST">📅 <span class="time-display">Jun 24 · 06:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/53.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp B · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ba.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Bosnia and Herzegovina</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Qatar <img src="https://flagcdn.com/w80/qa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T19:00:00Z" title="Kickoff: Jun 24 · 23:00 GST">📅 <span class="time-display">Jun 24 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/54.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T19:00:00Z" title="Kickoff: Jun 24 · 23:00 GST">📅 <span class="time-display">Jun 24 · 23:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/54.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp B · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ch.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Switzerland</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Canada <img src="https://flagcdn.com/w80/ca.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T19:00:00Z" title="Kickoff: Jun 24 · 23:00 GST">📅 <span class="time-display">Jun 24 · 23:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/49.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T19:00:00Z" title="Kickoff: Jun 24 · 23:00 GST">📅 <span class="time-display">Jun 24 · 23:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/49.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp C · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/gb-sct.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Scotland</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Brazil <img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T22:00:00Z" title="Kickoff: Jun 25 · 02:00 GST">📅 <span class="time-display">Jun 25 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/50.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T22:00:00Z" title="Kickoff: Jun 25 · 02:00 GST">📅 <span class="time-display">Jun 25 · 02:00 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/50.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp C · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ma.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Morocco</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Haiti <img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T22:00:00Z" title="Kickoff: Jun 25 · 02:00 GST">📅 <span class="time-display">Jun 25 · 02:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/51.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-24T22:00:00Z" title="Kickoff: Jun 25 · 02:00 GST">📅 <span class="time-display">Jun 25 · 02:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/51.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp A · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/za.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> South Africa</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">South Korea <img src="https://flagcdn.com/w80/kr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T01:00:00Z" title="Kickoff: Jun 25 · 05:00 GST">📅 <span class="time-display">Jun 25 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/52.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T01:00:00Z" title="Kickoff: Jun 25 · 05:00 GST">📅 <span class="time-display">Jun 25 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/52.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp A · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/cz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Czech Republic</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Mexico <img src="https://flagcdn.com/w80/mx.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T01:00:00Z" title="Kickoff: Jun 25 · 05:00 GST">📅 <span class="time-display">Jun 25 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/55.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T01:00:00Z" title="Kickoff: Jun 25 · 05:00 GST">📅 <span class="time-display">Jun 25 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/55.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp E · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/cw.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Curaçao</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Ivory Coast <img src="https://flagcdn.com/w80/ci.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T20:00:00Z" title="Kickoff: Jun 26 · 00:00 GST">📅 <span class="time-display">Jun 26 · 00:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/56.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T20:00:00Z" title="Kickoff: Jun 26 · 00:00 GST">📅 <span class="time-display">Jun 26 · 00:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/56.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp E · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ec.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ecuador</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Germany <img src="https://flagcdn.com/w80/de.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T20:00:00Z" title="Kickoff: Jun 26 · 00:00 GST">📅 <span class="time-display">Jun 26 · 00:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/59.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T20:00:00Z" title="Kickoff: Jun 26 · 00:00 GST">📅 <span class="time-display">Jun 26 · 00:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/59.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/jp.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Japan</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Sweden <img src="https://flagcdn.com/w80/se.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T23:00:00Z" title="Kickoff: Jun 26 · 03:00 GST">📅 <span class="time-display">Jun 26 · 03:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/60.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T23:00:00Z" title="Kickoff: Jun 26 · 03:00 GST">📅 <span class="time-display">Jun 26 · 03:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/60.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Tunisia</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Netherlands <img src="https://flagcdn.com/w80/nl.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T23:00:00Z" title="Kickoff: Jun 26 · 03:00 GST">📅 <span class="time-display">Jun 26 · 03:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/57.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-25T23:00:00Z" title="Kickoff: Jun 26 · 03:00 GST">📅 <span class="time-display">Jun 26 · 03:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/57.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp D · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Paraguay</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Australia <img src="https://flagcdn.com/w80/au.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T02:00:00Z" title="Kickoff: Jun 26 · 06:00 GST">📅 <span class="time-display">Jun 26 · 06:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/58.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T02:00:00Z" title="Kickoff: Jun 26 · 06:00 GST">📅 <span class="time-display">Jun 26 · 06:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/58.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp D · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Turkey</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">United States <img src="https://flagcdn.com/w80/us.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T02:00:00Z" title="Kickoff: Jun 26 · 06:00 GST">📅 <span class="time-display">Jun 26 · 06:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/61.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T02:00:00Z" title="Kickoff: Jun 26 · 06:00 GST">📅 <span class="time-display">Jun 26 · 06:00 GST</span></span><span class="stat-pill">📍 SoFi Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/61.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp I · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/sn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Senegal</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Iraq <img src="https://flagcdn.com/w80/iq.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T19:00:00Z" title="Kickoff: Jun 26 · 23:00 GST">📅 <span class="time-display">Jun 26 · 23:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/62.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T19:00:00Z" title="Kickoff: Jun 26 · 23:00 GST">📅 <span class="time-display">Jun 26 · 23:00 GST</span></span><span class="stat-pill">📍 BMO Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/62.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp I · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/no.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Norway</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">France <img src="https://flagcdn.com/w80/fr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T19:00:00Z" title="Kickoff: Jun 26 · 23:00 GST">📅 <span class="time-display">Jun 26 · 23:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/65.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-26T19:00:00Z" title="Kickoff: Jun 26 · 23:00 GST">📅 <span class="time-display">Jun 26 · 23:00 GST</span></span><span class="stat-pill">📍 Gillette Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/65.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp H · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/cv.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Cape Verde</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Saudi Arabia <img src="https://flagcdn.com/w80/sa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T00:00:00Z" title="Kickoff: Jun 27 · 04:00 GST">📅 <span class="time-display">Jun 27 · 04:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/66.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T00:00:00Z" title="Kickoff: Jun 27 · 04:00 GST">📅 <span class="time-display">Jun 27 · 04:00 GST</span></span><span class="stat-pill">📍 NRG Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/66.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp H · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/uy.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Uruguay</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Spain <img src="https://flagcdn.com/w80/es.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T00:00:00Z" title="Kickoff: Jun 27 · 04:00 GST">📅 <span class="time-display">Jun 27 · 04:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/63.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T00:00:00Z" title="Kickoff: Jun 27 · 04:00 GST">📅 <span class="time-display">Jun 27 · 04:00 GST</span></span><span class="stat-pill">📍 Estadio Akron</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/63.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp G · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/eg.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Egypt</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Iran <img src="https://flagcdn.com/w80/ir.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T03:00:00Z" title="Kickoff: Jun 27 · 07:00 GST">📅 <span class="time-display">Jun 27 · 07:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/64.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T03:00:00Z" title="Kickoff: Jun 27 · 07:00 GST">📅 <span class="time-display">Jun 27 · 07:00 GST</span></span><span class="stat-pill">📍 Lumen Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/64.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp G · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/nz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> New Zealand</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Belgium <img src="https://flagcdn.com/w80/be.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T03:00:00Z" title="Kickoff: Jun 27 · 07:00 GST">📅 <span class="time-display">Jun 27 · 07:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/67.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T03:00:00Z" title="Kickoff: Jun 27 · 07:00 GST">📅 <span class="time-display">Jun 27 · 07:00 GST</span></span><span class="stat-pill">📍 BC Place</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/67.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp L · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/pa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Panama</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">England <img src="https://flagcdn.com/w80/gb-eng.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T21:00:00Z" title="Kickoff: Jun 28 · 01:00 GST">📅 <span class="time-display">Jun 28 · 01:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/68.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T21:00:00Z" title="Kickoff: Jun 28 · 01:00 GST">📅 <span class="time-display">Jun 28 · 01:00 GST</span></span><span class="stat-pill">📍 MetLife Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/68.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp L · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/hr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Croatia</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Ghana <img src="https://flagcdn.com/w80/gh.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T21:00:00Z" title="Kickoff: Jun 28 · 01:00 GST">📅 <span class="time-display">Jun 28 · 01:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/71.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T21:00:00Z" title="Kickoff: Jun 28 · 01:00 GST">📅 <span class="time-display">Jun 28 · 01:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/71.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp K · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/co.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Colombia</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Portugal <img src="https://flagcdn.com/w80/pt.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T23:30:00Z" title="Kickoff: Jun 28 · 03:30 GST">📅 <span class="time-display">Jun 28 · 03:30 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/72.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T23:30:00Z" title="Kickoff: Jun 28 · 03:30 GST">📅 <span class="time-display">Jun 28 · 03:30 GST</span></span><span class="stat-pill">📍 Hard Rock Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/72.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp K · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/cd.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Democratic Republic of the Congo</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Uzbekistan <img src="https://flagcdn.com/w80/uz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T23:30:00Z" title="Kickoff: Jun 28 · 03:30 GST">📅 <span class="time-display">Jun 28 · 03:30 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/69.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-27T23:30:00Z" title="Kickoff: Jun 28 · 03:30 GST">📅 <span class="time-display">Jun 28 · 03:30 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/69.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp J · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/dz.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Algeria</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Austria <img src="https://flagcdn.com/w80/at.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-28T02:00:00Z" title="Kickoff: Jun 28 · 06:00 GST">📅 <span class="time-display">Jun 28 · 06:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/70.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-28T02:00:00Z" title="Kickoff: Jun 28 · 06:00 GST">📅 <span class="time-display">Jun 28 · 06:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/70.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp J · MD3</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/jo.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Jordan</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name">Argentina <img src="https://flagcdn.com/w80/ar.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-28T02:00:00Z" title="Kickoff: Jun 28 · 06:00 GST">📅 <span class="time-display">Jun 28 · 06:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/79.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-28T02:00:00Z" title="Kickoff: Jun 28 · 06:00 GST">📅 <span class="time-display">Jun 28 · 06:00 GST</span></span><span class="stat-pill">📍 AT&amp;T Stadium</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/79.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp R32 · MD4</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/mx.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Mexico</span></div>
     <div class="match-score">0—0</div>
     <div style="text-align:left"><span class="team-name"><span style="color:var(--text2)">TBD</span> </span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-07-01T01:00:00Z" title="Kickoff: Jul 01 · 05:00 GST">📅 <span class="time-display">Jul 01 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/wc26-hub/match/81.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-07-01T01:00:00Z" title="Kickoff: Jul 01 · 05:00 GST">📅 <span class="time-display">Jul 01 · 05:00 GST</span></span><span class="stat-pill">📍 Estadio Azteca</span></div></a></div><div class="match-card-wrap" data-status="scheduled"><a href="/match/81.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp R32 · MD4</span></div>
   <div class="match-teams">

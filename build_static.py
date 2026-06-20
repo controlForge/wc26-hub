@@ -282,13 +282,13 @@ def page(title, body, page_id="home"):
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title><style>{CSS}</style></head><body>
 <div class="topbar"><div class="topbar-in">
-  <a href="/wc26-hub/" class="logo">WC26</a>
-  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
-  <div class="nav-links" id="navLinks">
-    <a href="/wc26-hub/" class="{'on' if page_id=='home' else ''}">▶ HOME</a>
-    <a href="/wc26-hub/live.html" class="{'on' if page_id=='live' else ''}">▶ LIVE</a>
-    <a href="/wc26-hub/standings.html" class="{'on' if page_id=='standings' else ''}">▶ STANDINGS</a>
-    <a href="/wc26-hub/stats.html" class="{'on' if page_id=='stats' else ''}">▶ STATS</a>
+  <a href="/" class="logo">WC26</a>
+  <button class="hamburger" id="hamburger" onclick="var n=document.querySelector('.nav');n.classList.toggle('open');this.classList.toggle('open')"><span></span><span></span><span></button>
+  <nav class="nav">
+    <a href="/" class="{'on' if page_id=='home' else ''}">▶ HOME</a>
+    <a href="/live.html" class="{'on' if page_id=='live' else ''}">▶ LIVE</a>
+    <a href="/standings.html" class="{'on' if page_id=='standings' else ''}">▶ STANDINGS</a>
+    <a href="/stats.html" class="{'on' if page_id=='stats' else ''}">▶ STATS</a>
   </nav>
 </div></div>
 <div class="shell">{body}</div>
@@ -311,7 +311,7 @@ def match_card(m):
     date_pill = f'<span class="stat-pill match-time" data-utc="{utc_iso}" title="Kickoff: {dubai_str}">📅 <span class="time-display">{dubai_str}</span></span>' if utc_iso else ""
     home_display = esc(m["home"]) if m["home"] != "TBD" else '<span style="color:var(--text2)">TBD</span>'
     away_display = esc(m["away"]) if m["away"] != "TBD" else '<span style="color:var(--text2)">TBD</span>'
-    return f'''<a href="/wc26-hub/match/{esc(m["id"])}.html" class="match-card">
+    return f'''<a href="/match/{esc(m["id"])}.html" class="match-card">
   <div class="match-top"><span class="match-tag {status_class}">{status_text}</span>
     <span class="match-meta">Grp {esc(m.get("group",""))} · MD{esc(m.get("matchday",""))}</span></div>
   <div class="match-teams">
@@ -378,7 +378,7 @@ def build_homepage(matches, top_scorers, groups):
             flag_h = f'<img src="{esc(lm["home_flag"])}" style="width:22px;height:15px;object-fit:cover;border-radius:2px;vertical-align:middle">' if lm.get("home_flag") else ""
             flag_a = f'<img src="{esc(lm["away_flag"])}" style="width:22px;height:15px;object-fit:cover;border-radius:2px;vertical-align:middle">' if lm.get("away_flag") else ""
             minute = lm.get("minute","LIVE")
-            return f'<a href="/wc26-hub/match/{esc(lm["id"])}.html" class="live-banner"><div class="live-banner-in"><div class="live-badge"><span class="pulse"></span> LIVE {esc(minute)}\'</div><div class="live-teams">{flag_h} {esc(lm["home"])} <span class="live-score">{hs}-{aws}</span> {esc(lm["away"])} {flag_a}</div></div></a>'
+            body += f'<a href="/match/{esc(lm["id"])}.html" class="live-banner"><div class="live-banner-in"><div class="live-badge"><span class="pulse"></span> LIVE {esc(minute)}\'</div><div class="live-teams">{flag_h} {esc(lm["home"])} <span class="live-score">{hs}-{aws}</span> {esc(lm["away"])} {flag_a}</div></div></a>'
 
     body += affiliate_rail("World Cup Gear")
     body += adsense("ad-home-hero","ad-top")
@@ -393,7 +393,7 @@ def build_homepage(matches, top_scorers, groups):
         body += f'<div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track">{ticker_items}{ticker_items}</div></div></div></div>'
 
     body += '<div class="quick-nav">'
-    for icon, label, href in [("🔴","LIVE CENTER","/wc26-hub/live.html"),("📊","STANDINGS","/wc26-hub/standings.html"),("📈","STATS","/wc26-hub/stats.html"),("👟","BEST BOOTS","/wc26-hub/")]:
+    for icon, label, href in [("🔴","LIVE CENTER","/live.html"),("📊","STANDINGS","/standings.html"),("📈","STATS","/stats.html"),("👟","BEST BOOTS","/")]:
         body += f'<a href="{href}"><div class="icon">{icon}</div><div class="lbl">{label}</div></a>'
     body += '</div>'
     body += adsense("ad-home-nav","ad-inline")
@@ -555,7 +555,7 @@ function switchTab(id) {
 }
 </script>"""
 
-    body += '<a href="/wc26-hub/live.html" style="display:inline-block;margin-top:16px;font-size:.65rem;color:var(--nb)">← BACK TO MATCH CENTER</a>'
+    body += '<a href="/live.html" style="display:inline-block;margin-top:16px;font-size:.65rem;color:var(--nb)">← BACK TO MATCH CENTER</a>'
     body += '</div>'
 
     body += affiliate_rail("Match Day Gear")
