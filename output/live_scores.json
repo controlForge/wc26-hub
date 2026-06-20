@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T17:16:58.250052+00:00",
+  "updated_at": "2026-06-20T17:47:45.711786+00:00",
   "match_count": 74,
   "matches": [
     {
@@ -14336,7 +14336,7 @@
       "away_id": "23",
       "home_flag": "https://flagcdn.com/w80/nl.png",
       "away_flag": "https://flagcdn.com/w80/se.png",
-      "home_score": "1",
+      "home_score": "2",
       "away_score": "0",
       "status": "IN_PLAY",
       "minute": "live",
