@@ -2,8 +2,13 @@ name: Refresh WC26 Data
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/15 * * * *' # Runs every 15 minutes
   workflow_dispatch:
+
+# Prevent overlapping runs if a previous run takes longer than 15 minutes
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -11,21 +16,56 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10 # Prevent hung jobs from running forever
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip' # Caches pip dependencies to speed up installation
+          
       - name: Install dependencies
         run: pip install aiohttp
+        
       - name: Run scraper
-        run: python3 scraper.py
-      - name: Build static site
-        run: python3 build_static.py
-      - name: Commit and push
+        id: scraper
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add docs/ output/
-          git diff --cached --quiet || git commit -m "Auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          python3 scraper.py
+          
+          # Check if the output directory exists
+          if [ -d "output" ]; then
+            # Stage output to check for actual content changes
+            git add output/
+            
+            if ! git diff --cached --quiet; then
+              echo "Scraper output changed."
+              echo "changed=true" >> $GITHUB_OUTPUT
+            else
+              echo "No changes in scraper output."
+              echo "changed=false" >> $GITHUB_OUTPUT
+              # Unstage since nothing actually changed
+              git reset HEAD output/
+            fi
+          else
+            echo "Warning: output/ directory not found."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Build static site
+        # Only build if the scraper actually produced new data
+        if: steps.scraper.outputs.changed == 'true'
+        run: python3 build_static.py
+        
+      - name: Commit and push changes
+        if: steps.scraper.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # output/ is already staged from the previous step
+          # Add docs/ (ignore error if it doesn't exist yet)
+          git add docs/ || true
+          
+          git commit -m "Auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
