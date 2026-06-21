@@ -322,14 +322,38 @@
       "name": "G",
       "teams": [
         {
+          "name": "Iran",
+          "flag": "https://flagcdn.com/w80/ir.png",
+          "mp": 2,
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 2
+        },
+        {
           "name": "Belgium",
           "flag": "https://flagcdn.com/w80/be.png",
+          "mp": 2,
+          "w": 0,
+          "d": 2,
+          "l": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "pts": 2
+        },
+        {
+          "name": "New Zealand",
+          "flag": "https://flagcdn.com/w80/nz.png",
           "mp": 1,
           "w": 0,
           "d": 1,
           "l": 0,
-          "gf": 1,
-          "ga": 1,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
           "pts": 1
         },
@@ -342,30 +366,6 @@
           "l": 0,
           "gf": 1,
           "ga": 1,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "name": "Iran",
-          "flag": "https://flagcdn.com/w80/ir.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "name": "New Zealand",
-          "flag": "https://flagcdn.com/w80/nz.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
-          "gf": 2,
-          "ga": 2,
           "gd": 0,
           "pts": 1
         }

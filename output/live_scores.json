@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T20:50:26.100879+00:00",
+  "updated_at": "2026-06-21T21:53:23.753682+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -16116,15 +16116,409 @@
       "away_flag": "https://flagcdn.com/w80/ir.png",
       "home_score": "0",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/21/2026 12:00",
       "group": "G",
       "matchday": "2",
       "type": "group",
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
-      "stadium_id": "16"
+      "stadium_id": "16",
+      "stats": {
+        "possession": {
+          "home": 55,
+          "away": 45
+        },
+        "shots": {
+          "home": 5,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 1
+        },
+        "passes": {
+          "home": 260,
+          "away": 206
+        },
+        "pass_accuracy": {
+          "home": 85,
+          "away": 78
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 0.14
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 12,
+          "away": 10
+        },
+        "corners": {
+          "home": 2,
+          "away": 4
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 12,
+          "away": 26
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 15
+        }
+      },
+      "events": [
+        {
+          "minute": 27,
+          "type": "yellow_card",
+          "team": "Iran",
+          "player": "Milad Mohammadi"
+        }
+      ],
+      "players": [
+        {
+          "team": "Belgium",
+          "number": 1,
+          "name": "Thibaut Courtois",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 2,
+          "name": "Toby Alderweireld",
+          "position": "LB",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 3,
+          "name": "Jan Vertonghen",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 73,
+          "tackles": 4,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 4,
+          "name": "Jason Denayer",
+          "position": "CB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 5,
+          "name": "Thomas Meunier",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 6,
+          "name": "Axel Witsel",
+          "position": "CM",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 86,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 7,
+          "name": "Kevin De Bruyne",
+          "position": "CM",
+          "minutes": 70,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 90,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 8,
+          "name": "Yannick Carrasco",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 9,
+          "name": "Romelu Lukaku",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 53,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 10,
+          "name": "Eden Hazard",
+          "position": "ST",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 38,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Belgium",
+          "number": 11,
+          "name": "Dries Mertens",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 1,
+          "name": "Alireza Beiranvand",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 2,
+          "name": "Milad Mohammadi",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 3,
+          "name": "Morteza Pouraliganji",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 86,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 4,
+          "name": "Roozbeh Cheshmi",
+          "position": "CB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 45,
+          "pass_accuracy": 73,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 5,
+          "name": "Ehsan Hajsafi",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 45,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 6,
+          "name": "Saeid Ezatolahi",
+          "position": "CM",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 38,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 7,
+          "name": "Alireza Jahanbakhsh",
+          "position": "CM",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 28,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 8,
+          "name": "Saman Ghoddos",
+          "position": "LW",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 9,
+          "name": "Karim Ansarifard",
+          "position": "RW",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 10,
+          "name": "Sardar Azmoun",
+          "position": "ST",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Iran",
+          "number": 11,
+          "name": "Mehdi Taremi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 56,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "38",
@@ -16134,8 +16528,8 @@
       "away_id": "26",
       "home_flag": "https://flagcdn.com/w80/nz.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/21/2026 18:00",
@@ -16610,8 +17004,8 @@
       "away_id": "30",
       "home_flag": "https://flagcdn.com/w80/uy.png",
       "away_flag": "https://flagcdn.com/w80/cv.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/21/2026 18:00",
