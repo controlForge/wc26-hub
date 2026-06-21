@@ -131,31 +131,31 @@ a{color:inherit;text-decoration:none}
   <canvas id="pitch"></canvas>
   <div class="pitch-overlay">
     <div class="pitch-badges"><span class="pitch-badge g">FIFA WORLD CUP 2026</span><span class="pitch-badge w">USA · CANADA · MEXICO</span></div>
-    <h1>Germany <span style="color:#fff">vs</span> Ivory Coast</h1>
-    <p><span class="match-time" data-utc="2026-06-20T20:00:00Z" title="Kickoff: Jun 21 · 00:00 GST">Jun 21 · 00:00 GST</span> · Live from the pitch — watch the teams pass and move in their zones.</p>
+    <h1>Ecuador <span style="color:#fff">vs</span> Curaçao</h1>
+    <p><span class="match-time" data-utc="2026-06-21T00:00:00Z" title="Kickoff: Jun 21 · 04:00 GST">Jun 21 · 04:00 GST</span> · Live from the pitch — watch the teams pass and move in their zones.</p>
   </div></div>
 <script>
 (function(){var c=document.getElementById('pitch'),ctx=c.getContext('2d');
 function resize(){c.width=c.offsetWidth*2;c.height=c.offsetHeight*2;ctx.scale(2,2);}
 resize();window.addEventListener('resize',resize);
 var W,H,ball={x:0,y:0,trail:[]},passT=0,lastTime=0,players=[],target=5,passCooldown=0,globalDashLock=0;
-var homeShirt='#000000',awayShirt='#f77f00';
+var homeShirt='#ffd100',awayShirt='#002b7f';
 function build(){W=c.offsetWidth;H=c.offsetHeight;var m=20;var halfW=(W-m*2)/2;var usableH=H-m*2;var colW=halfW/3;var rowH=usableH/2;
 function makePlayer(num,name,team,shirt,st,zxMin,zyMin,zxMax,zyMax,role){var cx=(zxMin+zxMax)/2,cy=(zyMin+zyMax)/2;return{zone:{xMin:zxMin,xMax:zxMax,yMin:zyMin,yMax:zyMax},x:cx,y:cy,r:10,shirt:shirt,text:st,num:num,name:name,team:team,role:role,seed:Math.random()*6,dash:0,dashTx:0,dashTy:0};}
 players=[];
-players.push(makePlayer(1,'Manuel Neuer','h',homeShirt,'#fff',m,m,m+colW*0.6,m+usableH,'GK'));
-players.push(makePlayer(2,'Antonio Rüdiger','h',homeShirt,'#fff',m+colW*0.5,m,m+colW*1.5,m+rowH,'DEF'));
-players.push(makePlayer(3,'David Raum','h',homeShirt,'#fff',m+colW*0.5,m+rowH,m+colW*1.5,m+usableH,'DEF'));
-players.push(makePlayer(4,'Matthias Ginter','h',homeShirt,'#fff',m+colW*1.5,m,m+colW*2.5,m+rowH,'MID'));
-players.push(makePlayer(5,'Joshua Kimmich','h',homeShirt,'#fff',m+colW*1.5,m+rowH,m+colW*2.5,m+usableH,'MID'));
-players.push(makePlayer(6,'Leon Goretzka','h',homeShirt,'#fff',m+colW*1.2,m+rowH*0.3,m+colW*2.8,m+rowH*1.7,'FWD'));
+players.push(makePlayer(1,'Alexander Domínguez','h',homeShirt,'#111',m,m,m+colW*0.6,m+usableH,'GK'));
+players.push(makePlayer(2,'Piero Hincapié','h',homeShirt,'#111',m+colW*0.5,m,m+colW*1.5,m+rowH,'DEF'));
+players.push(makePlayer(3,'Robert Arboleda','h',homeShirt,'#111',m+colW*0.5,m+rowH,m+colW*1.5,m+usableH,'DEF'));
+players.push(makePlayer(4,'Pervis Estupiñán','h',homeShirt,'#111',m+colW*1.5,m,m+colW*2.5,m+rowH,'MID'));
+players.push(makePlayer(5,'Ángelo Preciado','h',homeShirt,'#111',m+colW*1.5,m+rowH,m+colW*2.5,m+usableH,'MID'));
+players.push(makePlayer(6,'Moisés Caicedo','h',homeShirt,'#111',m+colW*1.2,m+rowH*0.3,m+colW*2.8,m+rowH*1.7,'FWD'));
 var ax=m+halfW;
-players.push(makePlayer(1,'Yahia Fofana','a',awayShirt,'#fff',ax+halfW-colW*0.6,m,ax+halfW,m+usableH,'GK'));
-players.push(makePlayer(2,'Serge Aurier','a',awayShirt,'#fff',ax+halfW-colW*1.5,m,ax+halfW-colW*0.5,m+rowH,'DEF'));
-players.push(makePlayer(3,'Eric Bailly','a',awayShirt,'#fff',ax+halfW-colW*1.5,m+rowH,ax+halfW-colW*0.5,m+usableH,'DEF'));
-players.push(makePlayer(4,'Wilfried Singo','a',awayShirt,'#fff',ax+colW*0.5,m,ax+colW*1.5,m+rowH,'MID'));
-players.push(makePlayer(5,'Willy Boly','a',awayShirt,'#fff',ax+colW*0.5,m+rowH,ax+colW*1.5,m+usableH,'MID'));
-players.push(makePlayer(6,'Seko Fofana','a',awayShirt,'#fff',ax+colW*0.2,m+rowH*0.3,ax+colW*1.8,m+rowH*1.7,'FWD'));
+players.push(makePlayer(1,'Eloy Room','a',awayShirt,'#fff',ax+halfW-colW*0.6,m,ax+halfW,m+usableH,'GK'));
+players.push(makePlayer(2,'Cuco Martina','a',awayShirt,'#fff',ax+halfW-colW*1.5,m,ax+halfW-colW*0.5,m+rowH,'DEF'));
+players.push(makePlayer(3,'Darryl Lachman','a',awayShirt,'#fff',ax+halfW-colW*1.5,m+rowH,ax+halfW-colW*0.5,m+usableH,'DEF'));
+players.push(makePlayer(4,'Shermar Martina','a',awayShirt,'#fff',ax+colW*0.5,m,ax+colW*1.5,m+rowH,'MID'));
+players.push(makePlayer(5,'Juriën Gaari','a',awayShirt,'#fff',ax+colW*0.5,m+rowH,ax+colW*1.5,m+usableH,'MID'));
+players.push(makePlayer(6,'Leandro Bacuna','a',awayShirt,'#fff',ax+colW*0.2,m+rowH*0.3,ax+colW*1.8,m+rowH*1.7,'FWD'));
 ball.x=players[5].x;ball.y=players[5].y;ball.trail=[];}
 build();window.addEventListener('resize',build);
 function drawPitch(){ctx.fillStyle='#1a5c2a';ctx.fillRect(0,0,W,H);for(var i=0;i<W;i+=36){ctx.fillStyle=i%72===0?'#1c6b32':'#1a5c2a';ctx.fillRect(i,0,36,H);}ctx.strokeStyle='rgba(255,255,255,.1)';ctx.lineWidth=1.5;ctx.strokeRect(10,10,W-20,H-20);ctx.beginPath();ctx.moveTo(W/2,10);ctx.lineTo(W/2,H-10);ctx.stroke();ctx.beginPath();ctx.arc(W/2,H/2,40,0,Math.PI*2);ctx.stroke();ctx.fillStyle='rgba(255,255,250,.08)';ctx.beginPath();ctx.arc(W/2,H/2,3,0,Math.PI*2);ctx.fill();ctx.strokeRect(10,H/2-50,55,100);ctx.strokeRect(W-65,H/2-50,55,100);ctx.strokeStyle='rgba(255,255,255,.03)';ctx.lineWidth=1;ctx.setLineDash([3,6]);var m=20,halfW=(W-m*2)/2,usableH=H-m*2,colW=halfW/3,rowH=usableH/2;ctx.beginPath();ctx.moveTo(m+colW,m);ctx.lineTo(m+colW,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+colW*2,m);ctx.lineTo(m+colW*2,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m,m+rowH);ctx.lineTo(m+halfW,m+rowH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW+colW,m);ctx.lineTo(m+halfW+colW,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW+colW*2,m);ctx.lineTo(m+halfW+colW*2,m+usableH);ctx.stroke();ctx.beginPath();ctx.moveTo(m+halfW,m+rowH);ctx.lineTo(W-m,m+rowH);ctx.stroke();ctx.setLineDash([]);}
@@ -172,25 +172,32 @@ requestAnimationFrame(loop);})();
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3664033881184517"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track"><span class="ticker-item"><strong>Germany</strong> <span class="ticker-score">2-1</span> <strong>Ivory Coast</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Netherlands</strong> <span class="ticker-score">5-1</span> <strong>Sweden</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Germany</strong> <span class="ticker-score">2-1</span> <strong>Ivory Coast</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Netherlands</strong> <span class="ticker-score">5-1</span> <strong>Sweden</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>United States</strong> <span class="ticker-score">2-0</span> <strong>Australia</strong> <sup>FT</sup></span></div></div></div></div><div class="quick-nav"><a href="/live.html"><div class="icon">🔴</div><div class="lbl">LIVE CENTER</div></a><a href="/standings.html"><div class="icon">📊</div><div class="lbl">STANDINGS</div></a><a href="/stats.html"><div class="icon">📈</div><div class="lbl">STATS</div></a><a href="/"><div class="icon">👟</div><div class="lbl">BEST BOOTS</div></a></div><div class="ad-slot ad-inline" id="ad-home-nav">
+</div><div class="ticker"><div style="display:flex;align-items:center"><div class="ticker-label"><span class="pulse"></span>LIVE RESULTS</div><div style="overflow:hidden;flex:1;padding:8px 0"><div class="ticker-track"><span class="ticker-item"><strong>Ecuador</strong> <span class="ticker-score">0-0</span> <strong>Curaçao</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Germany</strong> <span class="ticker-score">2-1</span> <strong>Ivory Coast</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Netherlands</strong> <span class="ticker-score">5-1</span> <strong>Sweden</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Ecuador</strong> <span class="ticker-score">0-0</span> <strong>Curaçao</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Germany</strong> <span class="ticker-score">2-1</span> <strong>Ivory Coast</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Netherlands</strong> <span class="ticker-score">5-1</span> <strong>Sweden</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Turkey</strong> <span class="ticker-score">0-1</span> <strong>Paraguay</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Brazil</strong> <span class="ticker-score">3-0</span> <strong>Haiti</strong> <sup>FT</sup></span><span class="ticker-item"><strong>Scotland</strong> <span class="ticker-score">0-1</span> <strong>Morocco</strong> <sup>FT</sup></span></div></div></div></div><div class="quick-nav"><a href="/live.html"><div class="icon">🔴</div><div class="lbl">LIVE CENTER</div></a><a href="/standings.html"><div class="icon">📊</div><div class="lbl">STANDINGS</div></a><a href="/stats.html"><div class="icon">📈</div><div class="lbl">STATS</div></a><a href="/"><div class="icon">👟</div><div class="lbl">BEST BOOTS</div></a></div><div class="ad-slot ad-inline" id="ad-home-nav">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3664033881184517"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div class="sect">▸▸ RECENT & UPCOMING</div><div class="match-grid"><a href="/match/34.html" class="match-card">
-  <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
-    <span class="match-meta">Grp E · MD2</span></div>
-  <div class="match-teams">
-    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ec.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ecuador</span></div>
-    <div class="match-score">———</div>
-    <div style="text-align:left"><span class="team-name">Curaçao <img src="https://flagcdn.com/w80/cw.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T00:00:00Z" title="Kickoff: Jun 21 · 04:00 GST">📅 <span class="time-display">Jun 21 · 04:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a><a href="/match/36.html" class="match-card">
+</div><div class="sect">▸▸ RECENT & UPCOMING</div><div class="match-grid"><a href="/match/36.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
     <span class="match-meta">Grp F · MD2</span></div>
   <div class="match-teams">
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tn.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Tunisia</span></div>
     <div class="match-score">———</div>
     <div style="text-align:left"><span class="team-name">Japan <img src="https://flagcdn.com/w80/jp.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T04:00:00Z" title="Kickoff: Jun 21 · 08:00 GST">📅 <span class="time-display">Jun 21 · 08:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a><a href="/match/33.html" class="match-card">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T04:00:00Z" title="Kickoff: Jun 21 · 08:00 GST">📅 <span class="time-display">Jun 21 · 08:00 GST</span></span><span class="stat-pill">📍 Estadio BBVA</span></div></a><a href="/match/39.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-sc">● UPCOMING</span>
+    <span class="match-meta">Grp H · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/es.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Spain</span></div>
+    <div class="match-score">0—0</div>
+    <div style="text-align:left"><span class="team-name">Saudi Arabia <img src="https://flagcdn.com/w80/sa.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T16:00:00Z" title="Kickoff: Jun 21 · 20:00 GST">📅 <span class="time-display">Jun 21 · 20:00 GST</span></span><span class="stat-pill">📍 Mercedes-Benz Stadium</span></div></a><a href="/match/34.html" class="match-card">
+  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
+    <span class="match-meta">Grp E · MD2</span></div>
+  <div class="match-teams">
+    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/ec.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Ecuador</span></div>
+    <div class="match-score">0—0</div>
+    <div style="text-align:left"><span class="team-name">Curaçao <img src="https://flagcdn.com/w80/cw.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-21T00:00:00Z" title="Kickoff: Jun 21 · 04:00 GST">📅 <span class="time-display">Jun 21 · 04:00 GST</span></span><span class="stat-pill">📍 GEHA Field at Arrowhead Stadium</span></div></a><a href="/match/33.html" class="match-card">
   <div class="match-top"><span class="match-tag tag-ft">● FT</span>
     <span class="match-meta">Grp E · MD2</span></div>
   <div class="match-teams">
@@ -211,14 +218,7 @@ requestAnimationFrame(loop);})();
     <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/tr.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Turkey</span></div>
     <div class="match-score">0—1</div>
     <div style="text-align:left"><span class="team-name">Paraguay <img src="https://flagcdn.com/w80/py.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a><a href="/match/29.html" class="match-card">
-  <div class="match-top"><span class="match-tag tag-ft">● FT</span>
-    <span class="match-meta">Grp C · MD2</span></div>
-  <div class="match-teams">
-    <div style="text-align:right"><span class="team-name"><img src="https://flagcdn.com/w80/br.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"> Brazil</span></div>
-    <div class="match-score">3—0</div>
-    <div style="text-align:left"><span class="team-name">Haiti <img src="https://flagcdn.com/w80/ht.png" style="width:18px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle"></span></div>
-  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T01:00:00Z" title="Kickoff: Jun 20 · 05:00 GST">📅 <span class="time-display">Jun 20 · 05:00 GST</span></span><span class="stat-pill">📍 Lincoln Financial Field</span></div></a></div><div class="ad-slot ad-top" id="ad-home-matches">
+  </div><div class="match-foot"><span class="stat-pill match-time" data-utc="2026-06-20T03:00:00Z" title="Kickoff: Jun 20 · 07:00 GST">📅 <span class="time-display">Jun 20 · 07:00 GST</span></span><span class="stat-pill">📍 Levi's Stadium</span></div></a></div><div class="ad-slot ad-top" id="ad-home-matches">
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3664033881184517"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
@@ -226,7 +226,7 @@ requestAnimationFrame(loop);})();
   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3664033881184517"
        data-ad-slot="YYYYYYYYYY" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-</div><div style="text-align:center;font-size:.65rem;color:var(--text2);margin-top:16px">74 matches · Updated 2026-06-20T23:36:24.248468+00:00</div></div>
+</div><div style="text-align:center;font-size:.65rem;color:var(--text2);margin-top:16px">74 matches · Updated 2026-06-21T02:05:48.672678+00:00</div></div>
 <div class="footer">WC26 HUB · DATA: WORLDUP26.IR · NOT AFFILIATED WITH FIFA · BUILT WITH ⚽ AND ☕</div>
 
 <script>

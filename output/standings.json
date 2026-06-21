@@ -242,26 +242,26 @@
         {
           "name": "Ecuador",
           "flag": "https://flagcdn.com/w80/ec.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "pts": 0
+          "pts": 1
         },
         {
           "name": "Curaçao",
           "flag": "https://flagcdn.com/w80/cw.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
-          "d": 0,
+          "d": 1,
           "l": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "pts": 0
+          "pts": 1
         }
       ]
     },

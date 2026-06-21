@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T23:36:24.248468+00:00",
+  "updated_at": "2026-06-21T02:05:48.672678+00:00",
   "match_count": 74,
   "matches": [
     {
@@ -14746,9 +14746,9 @@
       "away_id": "18",
       "home_flag": "https://flagcdn.com/w80/ec.png",
       "away_flag": "https://flagcdn.com/w80/cw.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/20/2026 19:00",
       "group": "E",
@@ -14756,7 +14756,425 @@
       "type": "group",
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
-      "stadium_id": "6"
+      "stadium_id": "6",
+      "stats": {
+        "possession": {
+          "home": 44,
+          "away": 56
+        },
+        "shots": {
+          "home": 5,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 0
+        },
+        "passes": {
+          "home": 236,
+          "away": 296
+        },
+        "pass_accuracy": {
+          "home": 91,
+          "away": 89
+        },
+        "xG": {
+          "home": 0.39,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 1
+        },
+        "fouls": {
+          "home": 16,
+          "away": 15
+        },
+        "corners": {
+          "home": 6,
+          "away": 5
+        },
+        "offsides": {
+          "home": 3,
+          "away": 3
+        },
+        "tackles": {
+          "home": 15,
+          "away": 25
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 13
+        }
+      },
+      "events": [
+        {
+          "minute": 16,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Gevaro Nepomuceno"
+        },
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "Ecuador",
+          "player": "Jordy Caicedo"
+        },
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Cuco Martina"
+        },
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "Curaçao",
+          "player": "Shermar Martina"
+        },
+        {
+          "minute": 78,
+          "type": "yellow_card",
+          "team": "Ecuador",
+          "player": "Piero Hincapié"
+        }
+      ],
+      "players": [
+        {
+          "team": "Ecuador",
+          "number": 1,
+          "name": "Alexander Domínguez",
+          "position": "GK",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 2,
+          "name": "Piero Hincapié",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 86,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 3,
+          "name": "Robert Arboleda",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 60,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 4,
+          "name": "Pervis Estupiñán",
+          "position": "CB",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 5,
+          "name": "Ángelo Preciado",
+          "position": "RB",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 28,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 6,
+          "name": "Moisés Caicedo",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 59,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 7,
+          "name": "Alan Franco",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 95,
+          "tackles": 4,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 8,
+          "name": "Michael Estrada",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 9,
+          "name": "Enner Valencia",
+          "position": "RW",
+          "minutes": 80,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 10,
+          "name": "Gonzalo Plata",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 77,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ecuador",
+          "number": 11,
+          "name": "Jordy Caicedo",
+          "position": "ST",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 47,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 1,
+          "name": "Eloy Room",
+          "position": "GK",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 2,
+          "name": "Cuco Martina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 52,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 3,
+          "name": "Darryl Lachman",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 35,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 4,
+          "name": "Shermar Martina",
+          "position": "CB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 55,
+          "pass_accuracy": 94,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 5,
+          "name": "Juriën Gaari",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 6,
+          "name": "Leandro Bacuna",
+          "position": "CM",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 54,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 7,
+          "name": "Gevaro Nepomuceno",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 41,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 8,
+          "name": "Gino van Kessel",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 9,
+          "name": "Rangelo Janga",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 57,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 10,
+          "name": "Elson Hooi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 21,
+          "pass_accuracy": 86,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Curaçao",
+          "number": 11,
+          "name": "Gervane Kastaneer",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "35",
