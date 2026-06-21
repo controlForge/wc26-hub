@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T02:05:48.672678+00:00",
+  "updated_at": "2026-06-21T07:06:54.869599+00:00",
   "match_count": 74,
   "matches": [
     {
@@ -15658,9 +15658,9 @@
       "away_id": "22",
       "home_flag": "https://flagcdn.com/w80/tn.png",
       "away_flag": "https://flagcdn.com/w80/jp.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "0",
+      "away_score": "4",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/20/2026 22:00",
       "group": "F",
@@ -15668,7 +15668,443 @@
       "type": "group",
       "stadium": "Estadio BBVA",
       "stadium_city": "Monterrey (Guadalupe)",
-      "stadium_id": "3"
+      "stadium_id": "3",
+      "stats": {
+        "possession": {
+          "home": 44,
+          "away": 56
+        },
+        "shots": {
+          "home": 5,
+          "away": 10
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 6
+        },
+        "passes": {
+          "home": 278,
+          "away": 288
+        },
+        "pass_accuracy": {
+          "home": 83,
+          "away": 85
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 2.21
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 1,
+          "away": 0
+        },
+        "fouls": {
+          "home": 15,
+          "away": 12
+        },
+        "corners": {
+          "home": 3,
+          "away": 3
+        },
+        "offsides": {
+          "home": 4,
+          "away": 3
+        },
+        "tackles": {
+          "home": 21,
+          "away": 26
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 18,
+          "type": "yellow_card",
+          "team": "Tunisia",
+          "player": "Syam Ben Youssef"
+        },
+        {
+          "minute": 26,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Ayase Ueda"
+        },
+        {
+          "minute": 28,
+          "type": "yellow_card",
+          "team": "Tunisia",
+          "player": "Syam Ben Youssef"
+        },
+        {
+          "minute": 32,
+          "type": "yellow_card",
+          "team": "Japan",
+          "player": "Junya Ito"
+        },
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Wataru Endo"
+        },
+        {
+          "minute": 56,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Gaku Shibasaki"
+        },
+        {
+          "minute": 68,
+          "type": "yellow_card",
+          "team": "Japan",
+          "player": "Takehiro Tomiyasu"
+        },
+        {
+          "minute": 86,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Junya Ito"
+        }
+      ],
+      "players": [
+        {
+          "team": "Tunisia",
+          "number": 1,
+          "name": "Bechir Ben Saïd",
+          "position": "GK",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 2,
+          "name": "Ali Maâloul",
+          "position": "LB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 3,
+          "name": "Syam Ben Youssef",
+          "position": "CB",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 47,
+          "pass_accuracy": 90,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 4,
+          "name": "Yassine Meriah",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 80,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 5,
+          "name": "Dylan Bronn",
+          "position": "RB",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 23,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 6,
+          "name": "Ghaylen Chaalali",
+          "position": "CM",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 7,
+          "name": "Ellyes Skhiri",
+          "position": "CM",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 25,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 8,
+          "name": "Wahbi Khazri",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 46,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 9,
+          "name": "Seifeddine Jaziri",
+          "position": "RW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 44,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 10,
+          "name": "Youssef Msakni",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 30,
+          "pass_accuracy": 73,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 11,
+          "name": "Naïm Sliti",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 28,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 1,
+          "name": "Eiji Kawashima",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 2,
+          "name": "Hiroki Sakai",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 39,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 3,
+          "name": "Maya Yoshida",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 55,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 4,
+          "name": "Takehiro Tomiyasu",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 5,
+          "name": "Yuto Nagatomo",
+          "position": "RB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 6,
+          "name": "Wataru Endo",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 7,
+          "name": "Gaku Shibasaki",
+          "position": "CM",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 8,
+          "name": "Takefusa Kubo",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 9,
+          "name": "Ayase Ueda",
+          "position": "RW",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 10,
+          "name": "Junya Ito",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 11,
+          "name": "Ritsu Doan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 34,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "37",
