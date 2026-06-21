@@ -377,12 +377,24 @@
         {
           "name": "Spain",
           "flag": "https://flagcdn.com/w80/es.png",
+          "mp": 2,
+          "w": 1,
+          "d": 1,
+          "l": 0,
+          "gf": 4,
+          "ga": 0,
+          "gd": 4,
+          "pts": 4
+        },
+        {
+          "name": "Uruguay",
+          "flag": "https://flagcdn.com/w80/uy.png",
           "mp": 1,
           "w": 0,
           "d": 1,
           "l": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
           "pts": 1
         },
@@ -401,25 +413,13 @@
         {
           "name": "Saudi Arabia",
           "flag": "https://flagcdn.com/w80/sa.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 1,
-          "l": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "pts": 1
-        },
-        {
-          "name": "Uruguay",
-          "flag": "https://flagcdn.com/w80/uy.png",
-          "mp": 1,
-          "w": 0,
-          "d": 1,
-          "l": 0,
+          "l": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 5,
+          "gd": -4,
           "pts": 1
         }
       ]

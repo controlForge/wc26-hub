@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T20:01:57.149655+00:00",
+  "updated_at": "2026-06-21T20:50:26.100879+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -16114,10 +16114,10 @@
       "away_id": "27",
       "home_flag": "https://flagcdn.com/w80/be.png",
       "away_flag": "https://flagcdn.com/w80/ir.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/21/2026 12:00",
       "group": "G",
       "matchday": "2",
@@ -16154,9 +16154,9 @@
       "away_id": "31",
       "home_flag": "https://flagcdn.com/w80/es.png",
       "away_flag": "https://flagcdn.com/w80/sa.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "4",
+      "away_score": "0",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/21/2026 12:00",
       "group": "H",
@@ -16164,7 +16164,443 @@
       "type": "group",
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
-      "stadium_id": "7"
+      "stadium_id": "7",
+      "stats": {
+        "possession": {
+          "home": 56,
+          "away": 44
+        },
+        "shots": {
+          "home": 10,
+          "away": 1
+        },
+        "shots_on_target": {
+          "home": 7,
+          "away": 0
+        },
+        "passes": {
+          "home": 301,
+          "away": 247
+        },
+        "pass_accuracy": {
+          "home": 82,
+          "away": 87
+        },
+        "xG": {
+          "home": 2.88,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 9,
+          "away": 15
+        },
+        "corners": {
+          "home": 3,
+          "away": 8
+        },
+        "offsides": {
+          "home": 3,
+          "away": 2
+        },
+        "tackles": {
+          "home": 16,
+          "away": 23
+        },
+        "interceptions": {
+          "home": 10,
+          "away": 14
+        }
+      },
+      "events": [
+        {
+          "minute": 2,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Ferran Torres"
+        },
+        {
+          "minute": 14,
+          "type": "yellow_card",
+          "team": "Saudi Arabia",
+          "player": "Yasser Al-Shahrani"
+        },
+        {
+          "minute": 21,
+          "type": "yellow_card",
+          "team": "Spain",
+          "player": "Jordi Alba"
+        },
+        {
+          "minute": 34,
+          "type": "yellow_card",
+          "team": "Saudi Arabia",
+          "player": "Abdullah Otayf"
+        },
+        {
+          "minute": 51,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Álvaro Morata"
+        },
+        {
+          "minute": 64,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Álvaro Morata"
+        },
+        {
+          "minute": 74,
+          "type": "goal",
+          "team": "Spain",
+          "player": "Ferran Torres"
+        },
+        {
+          "minute": 77,
+          "type": "yellow_card",
+          "team": "Saudi Arabia",
+          "player": "Khalid Al-Ghannam"
+        }
+      ],
+      "players": [
+        {
+          "team": "Spain",
+          "number": 1,
+          "name": "Unai Simón",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 2,
+          "name": "César Azpilicueta",
+          "position": "LB",
+          "minutes": 74,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 81,
+          "tackles": 4,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 3,
+          "name": "Pau Torres",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 4,
+          "name": "Aymeric Laporte",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 5,
+          "name": "Jordi Alba",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 55,
+          "pass_accuracy": 76,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 6,
+          "name": "Pedri",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 7,
+          "name": "Gavi",
+          "position": "CM",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 34,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 8,
+          "name": "Ferran Torres",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 48,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 9,
+          "name": "Álvaro Morata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 10,
+          "name": "Marco Asensio",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 31,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Spain",
+          "number": 11,
+          "name": "Dani Olmo",
+          "position": "ST",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 1,
+          "name": "Mohammed Al-Owais",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 2,
+          "name": "Sultan Al-Ghanam",
+          "position": "LB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 3,
+          "name": "Yasser Al-Shahrani",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 4,
+          "name": "Ali Al-Bulaihi",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 5,
+          "name": "Hassan Tambakti",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 92,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 6,
+          "name": "Salman Al-Faraj",
+          "position": "CM",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 32,
+          "pass_accuracy": 83,
+          "tackles": 5,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 7,
+          "name": "Salem Al-Dawsari",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 8,
+          "name": "Firas Al-Buraikan",
+          "position": "LW",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 46,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 9,
+          "name": "Khalid Al-Ghannam",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 21,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 10,
+          "name": "Mohamed Kanno",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 36,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Saudi Arabia",
+          "number": 11,
+          "name": "Abdullah Otayf",
+          "position": "ST",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "40",
