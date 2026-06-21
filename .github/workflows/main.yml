@@ -2,12 +2,11 @@ name: Refresh WC26 Data
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
-# Prevent overlapping runs if a previous run takes longer than 15 minutes
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: wc26-refresh
   cancel-in-progress: true
 
 permissions:
@@ -16,56 +15,62 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10 # Prevent hung jobs from running forever
+    timeout-minutes: 10
+
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip' # Caches pip dependencies to speed up installation
-          
+          cache: 'pip'
+
       - name: Install dependencies
         run: pip install aiohttp
-        
+
       - name: Run scraper
         id: scraper
         run: |
           python3 scraper.py
-          
-          # Check if the output directory exists
+
           if [ -d "output" ]; then
-            # Stage output to check for actual content changes
             git add output/
-            
+
             if ! git diff --cached --quiet; then
-              echo "Scraper output changed."
               echo "changed=true" >> $GITHUB_OUTPUT
             else
-              echo "No changes in scraper output."
               echo "changed=false" >> $GITHUB_OUTPUT
-              # Unstage since nothing actually changed
               git reset HEAD output/
             fi
           else
-            echo "Warning: output/ directory not found."
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
-          
+
       - name: Build static site
-        # Only build if the scraper actually produced new data
         if: steps.scraper.outputs.changed == 'true'
-        run: python3 build_static.py
-        
+        run: |
+          python3 build_static.py
+
       - name: Commit and push changes
         if: steps.scraper.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # output/ is already staged from the previous step
-          # Add docs/ (ignore error if it doesn't exist yet)
+
+          git add output/
           git add docs/ || true
-          
+
+          git diff --cached --quiet && exit 0
+
           git commit -m "Auto-refresh: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+
+          # Synchronize with latest remote changes
+          git pull --rebase origin master
+
+          # Retry once if another run sneaks in
+          git push origin master || (
+            git pull --rebase origin master &&
+            git push origin master
+          )
