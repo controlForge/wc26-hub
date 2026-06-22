@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T01:41:23.070955+00:00",
+  "updated_at": "2026-06-22T07:05:40.822433+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -16529,16 +16529,452 @@
       "home_flag": "https://flagcdn.com/w80/nz.png",
       "away_flag": "https://flagcdn.com/w80/eg.png",
       "home_score": "1",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "3",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/21/2026 18:00",
       "group": "G",
       "matchday": "2",
       "type": "group",
       "stadium": "BC Place",
       "stadium_city": "Vancouver",
-      "stadium_id": "13"
+      "stadium_id": "13",
+      "stats": {
+        "possession": {
+          "home": 38,
+          "away": 62
+        },
+        "shots": {
+          "home": 7,
+          "away": 9
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 3
+        },
+        "passes": {
+          "home": 242,
+          "away": 402
+        },
+        "pass_accuracy": {
+          "home": 79,
+          "away": 86
+        },
+        "xG": {
+          "home": 1.01,
+          "away": 2.15
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 11,
+          "away": 14
+        },
+        "corners": {
+          "home": 2,
+          "away": 7
+        },
+        "offsides": {
+          "home": 0,
+          "away": 4
+        },
+        "tackles": {
+          "home": 23,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 13,
+          "away": 7
+        }
+      },
+      "events": [
+        {
+          "minute": 17,
+          "type": "goal",
+          "team": "Egypt",
+          "player": "Mohamed Elneny"
+        },
+        {
+          "minute": 30,
+          "type": "goal",
+          "team": "Egypt",
+          "player": "Marwan Hamdy"
+        },
+        {
+          "minute": 32,
+          "type": "yellow_card",
+          "team": "New Zealand",
+          "player": "Ben Waine"
+        },
+        {
+          "minute": 36,
+          "type": "yellow_card",
+          "team": "Egypt",
+          "player": "Ahmed Fathy"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "New Zealand",
+          "player": "Chris Wood"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "Egypt",
+          "player": "Mostafa Fathi"
+        },
+        {
+          "minute": 44,
+          "type": "yellow_card",
+          "team": "Egypt",
+          "player": "Marwan Hamdy"
+        },
+        {
+          "minute": 90,
+          "type": "yellow_card",
+          "team": "New Zealand",
+          "player": "Tommy Smith"
+        }
+      ],
+      "players": [
+        {
+          "team": "New Zealand",
+          "number": 1,
+          "name": "Max Crocombe",
+          "position": "GK",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 2,
+          "name": "Winston Reid",
+          "position": "LB",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 3,
+          "name": "Tommy Smith",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 82,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 4,
+          "name": "Michael Boxall",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 35,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 5,
+          "name": "Liberato Cacace",
+          "position": "RB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 60,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 6,
+          "name": "Ryan Thomas",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 55,
+          "pass_accuracy": 75,
+          "tackles": 4,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 7,
+          "name": "Chris Wood",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 8,
+          "name": "Marko Stamenic",
+          "position": "LW",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 9,
+          "name": "Andre de Jong",
+          "position": "RW",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 22,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 10,
+          "name": "Ben Waine",
+          "position": "ST",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "New Zealand",
+          "number": 11,
+          "name": "Alex Greive",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 1,
+          "name": "Mohamed El-Shenawy",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 2,
+          "name": "Ahmed Hegazi",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 3,
+          "name": "Omar Gaber",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 45,
+          "pass_accuracy": 90,
+          "tackles": 4,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 4,
+          "name": "Mahmoud Hamdy",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 5,
+          "name": "Ahmed Fathy",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 55,
+          "pass_accuracy": 77,
+          "tackles": 3,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 6,
+          "name": "Trézéguet",
+          "position": "CM",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 59,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 7,
+          "name": "Mohamed Elneny",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 89,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 8,
+          "name": "Mostafa Fathi",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 41,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 9,
+          "name": "Mohamed Salah",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 10,
+          "name": "Marwan Hamdy",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 42,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Egypt",
+          "number": 11,
+          "name": "Ramadan Sobhi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "39",
