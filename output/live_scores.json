@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T20:32:15.326552+00:00",
+  "updated_at": "2026-06-23T22:04:37.187018+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -20164,15 +20164,409 @@
       "away_flag": "https://flagcdn.com/w80/gh.png",
       "home_score": "0",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/23/2026 16:00",
       "group": "L",
       "matchday": "2",
       "type": "group",
       "stadium": "Gillette Stadium",
       "stadium_city": "Boston (Foxborough)",
-      "stadium_id": "9"
+      "stadium_id": "9",
+      "stats": {
+        "possession": {
+          "home": 50,
+          "away": 50
+        },
+        "shots": {
+          "home": 3,
+          "away": 2
+        },
+        "shots_on_target": {
+          "home": 1,
+          "away": 0
+        },
+        "passes": {
+          "home": 288,
+          "away": 264
+        },
+        "pass_accuracy": {
+          "home": 89,
+          "away": 83
+        },
+        "xG": {
+          "home": 0.19,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 13
+        },
+        "corners": {
+          "home": 8,
+          "away": 3
+        },
+        "offsides": {
+          "home": 3,
+          "away": 3
+        },
+        "tackles": {
+          "home": 20,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 9
+        }
+      },
+      "events": [
+        {
+          "minute": 18,
+          "type": "yellow_card",
+          "team": "Ghana",
+          "player": "Abdul Fatawu Issahaku"
+        }
+      ],
+      "players": [
+        {
+          "team": "England",
+          "number": 1,
+          "name": "Jordan Pickford",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 2,
+          "name": "Kyle Walker",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 32,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 3,
+          "name": "John Stones",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 4,
+          "name": "Harry Maguire",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 92,
+          "tackles": 4,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 5,
+          "name": "Luke Shaw",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 53,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 6,
+          "name": "Declan Rice",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 7,
+          "name": "Jude Bellingham",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 8,
+          "name": "Raheem Sterling",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 59,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 9,
+          "name": "Harry Kane",
+          "position": "RW",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 31,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 10,
+          "name": "Phil Foden",
+          "position": "ST",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 58,
+          "pass_accuracy": 92,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "England",
+          "number": 11,
+          "name": "Jack Grealish",
+          "position": "ST",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 41,
+          "pass_accuracy": 79,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 1,
+          "name": "Lawrence Ati-Zigi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 2,
+          "name": "Daniel Amartey",
+          "position": "LB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 57,
+          "pass_accuracy": 73,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 3,
+          "name": "Abdul-Rahman Baba",
+          "position": "CB",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 4,
+          "name": "Gideon Mensah",
+          "position": "CB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 5,
+          "name": "Thomas Partey",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 40,
+          "pass_accuracy": 84,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 6,
+          "name": "Mohammed Kudus",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 40,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 7,
+          "name": "André Ayew",
+          "position": "CM",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 57,
+          "pass_accuracy": 82,
+          "tackles": 4,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 8,
+          "name": "Jordan Ayew",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 38,
+          "pass_accuracy": 74,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 9,
+          "name": "Kamaldeen Sulemana",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 10,
+          "name": "Abdul Fatawu Issahaku",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 60,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 11,
+          "name": "Antoine Semenyo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "49",
