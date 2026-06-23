@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T18:16:25.881200+00:00",
+  "updated_at": "2026-06-23T20:32:15.326552+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -19672,17 +19672,447 @@
       "away_id": "43",
       "home_flag": "https://flagcdn.com/w80/pt.png",
       "away_flag": "https://flagcdn.com/w80/uz.png",
-      "home_score": "3",
+      "home_score": "5",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/23/2026 12:00",
       "group": "K",
       "matchday": "2",
       "type": "group",
       "stadium": "NRG Stadium",
       "stadium_city": "Houston",
-      "stadium_id": "5"
+      "stadium_id": "5",
+      "stats": {
+        "possession": {
+          "home": 56,
+          "away": 44
+        },
+        "shots": {
+          "home": 13,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 7,
+          "away": 0
+        },
+        "passes": {
+          "home": 301,
+          "away": 214
+        },
+        "pass_accuracy": {
+          "home": 92,
+          "away": 91
+        },
+        "xG": {
+          "home": 2.32,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 13,
+          "away": 15
+        },
+        "corners": {
+          "home": 2,
+          "away": 5
+        },
+        "offsides": {
+          "home": 3,
+          "away": 2
+        },
+        "tackles": {
+          "home": 27,
+          "away": 27
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 16
+        }
+      },
+      "events": [
+        {
+          "minute": 6,
+          "type": "yellow_card",
+          "team": "Uzbekistan",
+          "player": "Azizbek Turgunboev"
+        },
+        {
+          "minute": 21,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Rafael Leão"
+        },
+        {
+          "minute": 59,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo"
+        },
+        {
+          "minute": 69,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Diogo Jota"
+        },
+        {
+          "minute": 70,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Bruno Fernandes"
+        },
+        {
+          "minute": 80,
+          "type": "goal",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo"
+        },
+        {
+          "minute": 84,
+          "type": "yellow_card",
+          "team": "Portugal",
+          "player": "Bruno Fernandes"
+        }
+      ],
+      "players": [
+        {
+          "team": "Portugal",
+          "number": 1,
+          "name": "Diogo Costa",
+          "position": "GK",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 10,
+          "pass_accuracy": 73,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 2,
+          "name": "João Cancelo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 3,
+          "name": "Pepe",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 41,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 4,
+          "name": "Rúben Dias",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 5,
+          "name": "Raphaël Guerreiro",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 38,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 6,
+          "name": "Bruno Fernandes",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 7,
+          "name": "Bernardo Silva",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 8,
+          "name": "Diogo Jota",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 43,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 9,
+          "name": "Cristiano Ronaldo",
+          "position": "RW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 10,
+          "name": "Rafael Leão",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Portugal",
+          "number": 11,
+          "name": "André Silva",
+          "position": "ST",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 1,
+          "name": "Utkir Yusupov",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 2,
+          "name": "Khojiakbar Alijonov",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 38,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 3,
+          "name": "Igor Chikrizov",
+          "position": "CB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 4,
+          "name": "Farrukh Sayfiev",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 37,
+          "pass_accuracy": 88,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 5,
+          "name": "Jaloliddin Masharipov",
+          "position": "RB",
+          "minutes": 86,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 43,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 6,
+          "name": "Abbosbek Fayzullaev",
+          "position": "CM",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 51,
+          "pass_accuracy": 84,
+          "tackles": 4,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 7,
+          "name": "Otabek Shukurov",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 73,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 8,
+          "name": "Eldor Shomurodov",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 47,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 9,
+          "name": "Jaloliddin Masharipov",
+          "position": "RW",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 56,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 10,
+          "name": "Azizbek Turgunboev",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Uzbekistan",
+          "number": 11,
+          "name": "Dostonbek Tursunov",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "46",
@@ -19712,8 +20142,8 @@
       "away_id": "42",
       "home_flag": "https://flagcdn.com/w80/co.png",
       "away_flag": "https://flagcdn.com/w80/cd.png",
-      "home_score": "0",
-      "away_score": "0",
+      "home_score": null,
+      "away_score": null,
       "status": "SCHEDULED",
       "minute": null,
       "date": "06/23/2026 20:00",
@@ -19732,10 +20162,10 @@
       "away_id": "47",
       "home_flag": "https://flagcdn.com/w80/gb-eng.png",
       "away_flag": "https://flagcdn.com/w80/gh.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/23/2026 16:00",
       "group": "L",
       "matchday": "2",
@@ -20305,6 +20735,12 @@
       "assists": 0
     },
     {
+      "team": "Portugal",
+      "name": "Rafael Leão",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Iran",
       "name": "Saeid Ezatolahi",
       "goals": 1,
@@ -20397,12 +20833,6 @@
     {
       "team": "Australia",
       "name": "Awer Mabil",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Australia",
-      "name": "Martin Boyle",
       "goals": 1,
       "assists": 0
     }
