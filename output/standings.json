@@ -534,6 +534,18 @@
       "name": "K",
       "teams": [
         {
+          "name": "Colombia",
+          "flag": "https://flagcdn.com/w80/co.png",
+          "mp": 2,
+          "w": 2,
+          "d": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "pts": 6
+        },
+        {
           "name": "Portugal",
           "flag": "https://flagcdn.com/w80/pt.png",
           "mp": 2,
@@ -546,27 +558,15 @@
           "pts": 4
         },
         {
-          "name": "Colombia",
-          "flag": "https://flagcdn.com/w80/co.png",
-          "mp": 1,
-          "w": 1,
-          "d": 0,
-          "l": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "pts": 3
-        },
-        {
           "name": "Democratic Republic of the Congo",
           "flag": "https://flagcdn.com/w80/cd.png",
-          "mp": 1,
+          "mp": 2,
           "w": 0,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 2,
+          "gd": -1,
           "pts": 1
         },
         {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T01:24:59.142363+00:00",
+  "updated_at": "2026-06-24T05:35:41.384677+00:00",
   "match_count": 75,
   "matches": [
     {
@@ -20560,9 +20560,9 @@
       "away_id": "42",
       "home_flag": "https://flagcdn.com/w80/co.png",
       "away_flag": "https://flagcdn.com/w80/cd.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "1",
+      "away_score": "0",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/23/2026 20:00",
       "group": "K",
@@ -20570,7 +20570,419 @@
       "type": "group",
       "stadium": "Estadio Akron",
       "stadium_city": "Guadalajara (Zapopan)",
-      "stadium_id": "2"
+      "stadium_id": "2",
+      "stats": {
+        "possession": {
+          "home": 62,
+          "away": 38
+        },
+        "shots": {
+          "home": 6,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 0
+        },
+        "passes": {
+          "home": 368,
+          "away": 243
+        },
+        "pass_accuracy": {
+          "home": 86,
+          "away": 85
+        },
+        "xG": {
+          "home": 0.61,
+          "away": 0.0
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 18,
+          "away": 14
+        },
+        "corners": {
+          "home": 6,
+          "away": 1
+        },
+        "offsides": {
+          "home": 0,
+          "away": 3
+        },
+        "tackles": {
+          "home": 19,
+          "away": 19
+        },
+        "interceptions": {
+          "home": 16,
+          "away": 13
+        }
+      },
+      "events": [
+        {
+          "minute": 5,
+          "type": "yellow_card",
+          "team": "Colombia",
+          "player": "Frank Fabra"
+        },
+        {
+          "minute": 20,
+          "type": "goal",
+          "team": "Colombia",
+          "player": "Duván Zapata"
+        },
+        {
+          "minute": 34,
+          "type": "yellow_card",
+          "team": "Democratic Republic of the Congo",
+          "player": "Giannelli Imbula"
+        },
+        {
+          "minute": 60,
+          "type": "yellow_card",
+          "team": "Democratic Republic of the Congo",
+          "player": "Issama Mpeko"
+        }
+      ],
+      "players": [
+        {
+          "team": "Colombia",
+          "number": 1,
+          "name": "David Ospina",
+          "position": "GK",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 90,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 2,
+          "name": "Yerry Mina",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 50,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 3,
+          "name": "Davinson Sánchez",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 72,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 4,
+          "name": "William Tesillo",
+          "position": "CB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 5,
+          "name": "Frank Fabra",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 94,
+          "tackles": 3,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 6,
+          "name": "Wilmar Barrios",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 73,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 7,
+          "name": "Juan Guillermo Cuadrad",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 46,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 8,
+          "name": "Luis Díaz",
+          "position": "LW",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 42,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 9,
+          "name": "Duván Zapata",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 47,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 10,
+          "name": "James Rodríguez",
+          "position": "ST",
+          "minutes": 62,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Colombia",
+          "number": 11,
+          "name": "Rafael Santos Borré",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 1,
+          "name": "Joël Kiassumbua",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 2,
+          "name": "Issama Mpeko",
+          "position": "LB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 55,
+          "pass_accuracy": 79,
+          "tackles": 3,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 3,
+          "name": "Wilfred Moke",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 4,
+          "name": "Fabrice N'Sakala",
+          "position": "CB",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 73,
+          "tackles": 5,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 5,
+          "name": "Marcel Tisserand",
+          "position": "RB",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 6,
+          "name": "Chancel Mbemba",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 49,
+          "pass_accuracy": 93,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 7,
+          "name": "Giannelli Imbula",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 74,
+          "tackles": 4,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 8,
+          "name": "Cédric Bakambu",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 7.7,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 9,
+          "name": "Dieumerci Mbokani",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 23,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 10,
+          "name": "Yannick Bolasie",
+          "position": "ST",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Democratic Republic of the Congo",
+          "number": 11,
+          "name": "Neeskens Kebano",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 44,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "48",
