@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T01:26:50.193304+00:00",
+  "updated_at": "2026-06-25T05:42:39.565001+00:00",
   "match_count": 78,
   "matches": [
     {
@@ -5881,16 +5881,440 @@
       "home_flag": "https://flagcdn.com/w80/cz.png",
       "away_flag": "https://flagcdn.com/w80/mx.png",
       "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "3",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 19:00",
       "group": "A",
       "matchday": "3",
       "type": "group",
       "stadium": "Estadio Azteca",
       "stadium_city": "Mexico City",
-      "stadium_id": "1"
+      "stadium_id": "1",
+      "stats": {
+        "possession": {
+          "home": 39,
+          "away": 61
+        },
+        "shots": {
+          "home": 6,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 4
+        },
+        "passes": {
+          "home": 194,
+          "away": 295
+        },
+        "pass_accuracy": {
+          "home": 90,
+          "away": 83
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 1.45
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 16,
+          "away": 8
+        },
+        "corners": {
+          "home": 2,
+          "away": 1
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 12,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 16
+        }
+      },
+      "events": [
+        {
+          "minute": 1,
+          "type": "yellow_card",
+          "team": "Mexico",
+          "player": "Edson Álvarez"
+        },
+        {
+          "minute": 14,
+          "type": "yellow_card",
+          "team": "Mexico",
+          "player": "Guillermo Ochoa"
+        },
+        {
+          "minute": 22,
+          "type": "yellow_card",
+          "team": "Czech Republic",
+          "player": "Jan Bořil"
+        },
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "Mexico",
+          "player": "Carlos Rodríguez"
+        },
+        {
+          "minute": 46,
+          "type": "goal",
+          "team": "Mexico",
+          "player": "Orbelín Pineda"
+        },
+        {
+          "minute": 59,
+          "type": "goal",
+          "team": "Mexico",
+          "player": "Héctor Moreno"
+        }
+      ],
+      "players": [
+        {
+          "team": "Czech Republic",
+          "number": 1,
+          "name": "Tomáš Vaclík",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 2,
+          "name": "Pavel Kadeřábek",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 52,
+          "pass_accuracy": 71,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 3,
+          "name": "Ondřej Čelůstka",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 4,
+          "name": "Vladimír Coufal",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 47,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 5,
+          "name": "Jan Bořil",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 32,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 6,
+          "name": "Tomáš Souček",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 43,
+          "pass_accuracy": 79,
+          "tackles": 5,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 7,
+          "name": "Antonín Barák",
+          "position": "CM",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 79,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 8,
+          "name": "Vladimír Darida",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 9,
+          "name": "Patrik Schick",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 10,
+          "name": "Michael Krmenčík",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 39,
+          "pass_accuracy": 76,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Czech Republic",
+          "number": 11,
+          "name": "Tomáš Pekhart",
+          "position": "ST",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 1,
+          "name": "Guillermo Ochoa",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 14,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 2,
+          "name": "Jesús Gallardo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 22,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 3,
+          "name": "César Montes",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 58,
+          "pass_accuracy": 72,
+          "tackles": 4,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 4,
+          "name": "Edson Álvarez",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 28,
+          "pass_accuracy": 88,
+          "tackles": 5,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 5,
+          "name": "Jorge Sánchez",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 6,
+          "name": "Héctor Moreno",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 91,
+          "tackles": 4,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 7,
+          "name": "Orbelín Pineda",
+          "position": "CM",
+          "minutes": 62,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 8,
+          "name": "Carlos Rodríguez",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 56,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 9,
+          "name": "Raúl Jiménez",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 52,
+          "pass_accuracy": 76,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 10,
+          "name": "Hirving Lozano",
+          "position": "ST",
+          "minutes": 77,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 25,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Mexico",
+          "number": 11,
+          "name": "Rogelio Funes Mori",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 40,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "60",
@@ -9144,17 +9568,423 @@
       "away_id": "3",
       "home_flag": "https://flagcdn.com/w80/za.png",
       "away_flag": "https://flagcdn.com/w80/kr.png",
-      "home_score": "0",
+      "home_score": "1",
       "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 19:00",
       "group": "A",
       "matchday": "3",
       "type": "group",
       "stadium": "Estadio BBVA",
       "stadium_city": "Monterrey (Guadalupe)",
-      "stadium_id": "3"
+      "stadium_id": "3",
+      "stats": {
+        "possession": {
+          "home": 55,
+          "away": 45
+        },
+        "shots": {
+          "home": 3,
+          "away": 4
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 2
+        },
+        "passes": {
+          "home": 280,
+          "away": 258
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 83
+        },
+        "xG": {
+          "home": 0.78,
+          "away": 0.31
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 9,
+          "away": 16
+        },
+        "corners": {
+          "home": 5,
+          "away": 4
+        },
+        "offsides": {
+          "home": 0,
+          "away": 0
+        },
+        "tackles": {
+          "home": 18,
+          "away": 26
+        },
+        "interceptions": {
+          "home": 16,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 15,
+          "type": "goal",
+          "team": "South Africa",
+          "player": "Lyle Foster"
+        },
+        {
+          "minute": 37,
+          "type": "yellow_card",
+          "team": "South Korea",
+          "player": "Jo Hyeon-woo"
+        },
+        {
+          "minute": 46,
+          "type": "yellow_card",
+          "team": "South Africa",
+          "player": "Themba Zwane"
+        }
+      ],
+      "players": [
+        {
+          "team": "South Africa",
+          "number": 1,
+          "name": "Ronwen Williams",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 2,
+          "name": "Thibang Phete",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 30,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 3,
+          "name": "Siyanda Xulu",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 27,
+          "pass_accuracy": 79,
+          "tackles": 3,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 4,
+          "name": "Innocent Maela",
+          "position": "CB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 33,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 5,
+          "name": "Thulani Serero",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 46,
+          "pass_accuracy": 72,
+          "tackles": 5,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 6,
+          "name": "Percy Tau",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 31,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 7,
+          "name": "Themba Zwane",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 39,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 8,
+          "name": "Bongani Zungu",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 51,
+          "pass_accuracy": 70,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 9,
+          "name": "Lyle Foster",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 27,
+          "pass_accuracy": 72,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 10,
+          "name": "Evidence Makgopa",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 35,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 11,
+          "name": "Keagan Dolly",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 34,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 1,
+          "name": "Kim Seung-gyu",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 18,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 2,
+          "name": "Kim Jin-su",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 83,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 3,
+          "name": "Kim Young-gwon",
+          "position": "CB",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 4,
+          "name": "Jung Woo-young",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 34,
+          "pass_accuracy": 70,
+          "tackles": 5,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 5,
+          "name": "Lee Jae-sung",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 47,
+          "pass_accuracy": 77,
+          "tackles": 1,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 6,
+          "name": "Hwang Hee-chan",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 7,
+          "name": "Son Heung-min",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 87,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 8,
+          "name": "Hwang In-beom",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 43,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 9,
+          "name": "Cho Gue-sung",
+          "position": "RW",
+          "minutes": 61,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 38,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 10,
+          "name": "Lee Kang-in",
+          "position": "ST",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "South Korea",
+          "number": 11,
+          "name": "Jo Hyeon-woo",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 90,
+          "tackles": 2,
+          "rating": 6.8,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "9",

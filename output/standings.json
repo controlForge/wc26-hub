@@ -6,49 +6,49 @@
         {
           "name": "Mexico",
           "flag": "https://flagcdn.com/w80/mx.png",
-          "mp": 2,
-          "w": 2,
+          "mp": 3,
+          "w": 3,
           "d": 0,
           "l": 0,
-          "gf": 3,
+          "gf": 6,
           "ga": 0,
-          "gd": 3,
-          "pts": 6
+          "gd": 6,
+          "pts": 9
         },
         {
-          "name": "South Korea",
-          "flag": "https://flagcdn.com/w80/kr.png",
-          "mp": 2,
+          "name": "South Africa",
+          "flag": "https://flagcdn.com/w80/za.png",
+          "mp": 3,
           "w": 1,
-          "d": 0,
-          "l": 1,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "pts": 3
-        },
-        {
-          "name": "Czech Republic",
-          "flag": "https://flagcdn.com/w80/cz.png",
-          "mp": 2,
-          "w": 0,
           "d": 1,
           "l": 1,
           "gf": 2,
           "ga": 3,
           "gd": -1,
-          "pts": 1
+          "pts": 4
         },
         {
-          "name": "South Africa",
-          "flag": "https://flagcdn.com/w80/za.png",
-          "mp": 2,
+          "name": "South Korea",
+          "flag": "https://flagcdn.com/w80/kr.png",
+          "mp": 3,
+          "w": 1,
+          "d": 0,
+          "l": 2,
+          "gf": 2,
+          "ga": 3,
+          "gd": -1,
+          "pts": 3
+        },
+        {
+          "name": "Czech Republic",
+          "flag": "https://flagcdn.com/w80/cz.png",
+          "mp": 3,
           "w": 0,
           "d": 1,
-          "l": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
+          "l": 2,
+          "gf": 2,
+          "ga": 6,
+          "gd": -4,
           "pts": 1
         }
       ]
