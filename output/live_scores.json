@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T23:02:30.142619+00:00",
+  "updated_at": "2026-06-25T01:26:50.193304+00:00",
   "match_count": 78,
   "matches": [
     {
@@ -5880,10 +5880,10 @@
       "away_id": "1",
       "home_flag": "https://flagcdn.com/w80/cz.png",
       "away_flag": "https://flagcdn.com/w80/mx.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/24/2026 19:00",
       "group": "A",
       "matchday": "3",
@@ -8670,17 +8670,471 @@
       "away_id": "11",
       "home_flag": "https://flagcdn.com/w80/ma.png",
       "away_flag": "https://flagcdn.com/w80/ht.png",
-      "home_score": "2",
+      "home_score": "4",
       "away_score": "2",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 18:00",
       "group": "C",
       "matchday": "3",
       "type": "group",
       "stadium": "Mercedes-Benz Stadium",
       "stadium_city": "Atlanta",
-      "stadium_id": "7"
+      "stadium_id": "7",
+      "stats": {
+        "possession": {
+          "home": 58,
+          "away": 42
+        },
+        "shots": {
+          "home": 6,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 6,
+          "away": 4
+        },
+        "passes": {
+          "home": 345,
+          "away": 255
+        },
+        "pass_accuracy": {
+          "home": 89,
+          "away": 90
+        },
+        "xG": {
+          "home": 2.71,
+          "away": 1.37
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 16,
+          "away": 16
+        },
+        "corners": {
+          "home": 5,
+          "away": 4
+        },
+        "offsides": {
+          "home": 0,
+          "away": 0
+        },
+        "tackles": {
+          "home": 27,
+          "away": 15
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 8
+        }
+      },
+      "events": [
+        {
+          "minute": 1,
+          "type": "yellow_card",
+          "team": "Haiti",
+          "player": "Brian Sylvestre"
+        },
+        {
+          "minute": 3,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Hakim Ziyech"
+        },
+        {
+          "minute": 12,
+          "type": "yellow_card",
+          "team": "Haiti",
+          "player": "Djimy Belfort"
+        },
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Azzedine Ounahi"
+        },
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "Haiti",
+          "player": "Carnejy Antoine"
+        },
+        {
+          "minute": 19,
+          "type": "yellow_card",
+          "team": "Morocco",
+          "player": "Munir Mohamedi"
+        },
+        {
+          "minute": 43,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Sofyan Amrabat"
+        },
+        {
+          "minute": 57,
+          "type": "yellow_card",
+          "team": "Haiti",
+          "player": "Carnejy Antoine"
+        },
+        {
+          "minute": 80,
+          "type": "goal",
+          "team": "Morocco",
+          "player": "Sofyan Amrabat"
+        },
+        {
+          "minute": 80,
+          "type": "yellow_card",
+          "team": "Morocco",
+          "player": "Azzedine Ounahi"
+        },
+        {
+          "minute": 81,
+          "type": "goal",
+          "team": "Haiti",
+          "player": "Carnejy Antoine"
+        }
+      ],
+      "players": [
+        {
+          "team": "Morocco",
+          "number": 1,
+          "name": "Yassine Bounou",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 11,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 2,
+          "name": "Achraf Hakimi",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 57,
+          "pass_accuracy": 86,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 3,
+          "name": "Romain Saïss",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 4,
+          "name": "Nayef Aguerd",
+          "position": "CB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 22,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 5,
+          "name": "Adam Masina",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 6,
+          "name": "Sofyan Amrabat",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 49,
+          "pass_accuracy": 83,
+          "tackles": 3,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 7,
+          "name": "Hakim Ziyech",
+          "position": "CM",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 8,
+          "name": "Youssef En-Nesyri",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 30,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 9,
+          "name": "Munir Mohamedi",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 10,
+          "name": "Azzedine Ounahi",
+          "position": "ST",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 48,
+          "pass_accuracy": 93,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Morocco",
+          "number": 11,
+          "name": "Selim Amallah",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 1,
+          "name": "Brian Sylvestre",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 92,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 2,
+          "name": "Carlens Arcus",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 54,
+          "pass_accuracy": 82,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 3,
+          "name": "Ricardo Adé",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 4,
+          "name": "Djimy Belfort",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 42,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 5,
+          "name": "Alex Christian",
+          "position": "RB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 83,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 6,
+          "name": "Bryan Alceus",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 35,
+          "pass_accuracy": 85,
+          "tackles": 5,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 7,
+          "name": "Wilde-Donald Guerrier",
+          "position": "CM",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 8,
+          "name": "Duckens Nazon",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 9,
+          "name": "Derrick Etienne",
+          "position": "RW",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 55,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 10,
+          "name": "Carnejy Antoine",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Haiti",
+          "number": 11,
+          "name": "Frantzdy Pierrot",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 95,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "51",
@@ -8690,10 +9144,10 @@
       "away_id": "3",
       "home_flag": "https://flagcdn.com/w80/za.png",
       "away_flag": "https://flagcdn.com/w80/kr.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/24/2026 19:00",
       "group": "A",
       "matchday": "3",
@@ -12263,16 +12717,434 @@
       "home_flag": "https://flagcdn.com/w80/gb-sct.png",
       "away_flag": "https://flagcdn.com/w80/br.png",
       "home_score": "0",
-      "away_score": "2",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "3",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/24/2026 18:00",
       "group": "C",
       "matchday": "3",
       "type": "group",
       "stadium": "Hard Rock Stadium",
       "stadium_city": "Miami (Miami Gardens)",
-      "stadium_id": "8"
+      "stadium_id": "8",
+      "stats": {
+        "possession": {
+          "home": 46,
+          "away": 54
+        },
+        "shots": {
+          "home": 6,
+          "away": 7
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 3
+        },
+        "passes": {
+          "home": 283,
+          "away": 330
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 88
+        },
+        "xG": {
+          "home": 0.4,
+          "away": 2.17
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 4
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 15,
+          "away": 10
+        },
+        "corners": {
+          "home": 2,
+          "away": 5
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 17,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 8,
+          "away": 10
+        }
+      },
+      "events": [
+        {
+          "minute": 15,
+          "type": "goal",
+          "team": "Brazil",
+          "player": "Gabriel Jesus"
+        },
+        {
+          "minute": 21,
+          "type": "yellow_card",
+          "team": "Scotland",
+          "player": "John McGinn"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "Brazil",
+          "player": "Gabriel Jesus"
+        },
+        {
+          "minute": 79,
+          "type": "yellow_card",
+          "team": "Scotland",
+          "player": "Stephen O'Donnell"
+        },
+        {
+          "minute": 90,
+          "type": "goal",
+          "team": "Brazil",
+          "player": "Fabinho"
+        }
+      ],
+      "players": [
+        {
+          "team": "Scotland",
+          "number": 1,
+          "name": "Craig Gordon",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 17,
+          "pass_accuracy": 94,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 2,
+          "name": "Andy Robertson",
+          "position": "LB",
+          "minutes": 64,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 3,
+          "name": "Grant Hanley",
+          "position": "CB",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 36,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 4,
+          "name": "Kieran Tierney",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 26,
+          "pass_accuracy": 91,
+          "tackles": 5,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 5,
+          "name": "Stephen O'Donnell",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 6,
+          "name": "John McGinn",
+          "position": "CM",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 28,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 7,
+          "name": "Callum McGregor",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 39,
+          "pass_accuracy": 82,
+          "tackles": 4,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 8,
+          "name": "Stuart Armstrong",
+          "position": "LW",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 9,
+          "name": "Lyndon Dykes",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 10,
+          "name": "Ché Adams",
+          "position": "ST",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Scotland",
+          "number": 11,
+          "name": "Ryan Christie",
+          "position": "ST",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 1,
+          "name": "Alisson",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 2,
+          "name": "Danilo",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 3,
+          "name": "Marquinhos",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 26,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 4,
+          "name": "Éder Militão",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 5,
+          "name": "Alex Sandro",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 6,
+          "name": "Casemiro",
+          "position": "CM",
+          "minutes": 68,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 7,
+          "name": "Fabinho",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 42,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 8,
+          "name": "Neymar",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 45,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 9,
+          "name": "Gabriel Jesus",
+          "position": "RW",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 22,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 10,
+          "name": "Vinícius Júnior",
+          "position": "ST",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 50,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 11,
+          "name": "Raphinha",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 57,
+          "pass_accuracy": 81,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "53",
@@ -22849,6 +23721,12 @@
       "assists": 1
     },
     {
+      "team": "Morocco",
+      "name": "Sofyan Amrabat",
+      "goals": 2,
+      "assists": 1
+    },
+    {
       "team": "Bosnia and Herzegovina",
       "name": "Rade Krunić",
       "goals": 2,
@@ -22881,12 +23759,6 @@
     {
       "team": "England",
       "name": "Raheem Sterling",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "team": "Morocco",
-      "name": "Sofyan Amrabat",
       "goals": 1,
       "assists": 1
     },
