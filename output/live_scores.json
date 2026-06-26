@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T23:45:09.241147+00:00",
+  "updated_at": "2026-06-26T01:54:15.697072+00:00",
   "match_count": 80,
   "matches": [
     {
@@ -3148,17 +3148,423 @@
       "away_id": "23",
       "home_flag": "https://flagcdn.com/w80/jp.png",
       "away_flag": "https://flagcdn.com/w80/se.png",
-      "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "1",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/25/2026 18:00",
       "group": "F",
       "matchday": "3",
       "type": "group",
       "stadium": "AT&T Stadium",
       "stadium_city": "Dallas (Arlington, Texas)",
-      "stadium_id": "4"
+      "stadium_id": "4",
+      "stats": {
+        "possession": {
+          "home": 56,
+          "away": 44
+        },
+        "shots": {
+          "home": 3,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 1,
+          "away": 1
+        },
+        "passes": {
+          "home": 350,
+          "away": 222
+        },
+        "pass_accuracy": {
+          "home": 83,
+          "away": 80
+        },
+        "xG": {
+          "home": 0.54,
+          "away": 0.58
+        },
+        "yellow_cards": {
+          "home": 1,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 16,
+          "away": 11
+        },
+        "corners": {
+          "home": 7,
+          "away": 8
+        },
+        "offsides": {
+          "home": 1,
+          "away": 2
+        },
+        "tackles": {
+          "home": 16,
+          "away": 25
+        },
+        "interceptions": {
+          "home": 13,
+          "away": 14
+        }
+      },
+      "events": [
+        {
+          "minute": 64,
+          "type": "yellow_card",
+          "team": "Japan",
+          "player": "Yuto Nagatomo"
+        },
+        {
+          "minute": 71,
+          "type": "goal",
+          "team": "Sweden",
+          "player": "Robin Quaison"
+        },
+        {
+          "minute": 73,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Gaku Shibasaki"
+        }
+      ],
+      "players": [
+        {
+          "team": "Japan",
+          "number": 1,
+          "name": "Eiji Kawashima",
+          "position": "GK",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 2,
+          "name": "Hiroki Sakai",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 25,
+          "pass_accuracy": 75,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 3,
+          "name": "Maya Yoshida",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 78,
+          "tackles": 5,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 4,
+          "name": "Takehiro Tomiyasu",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 78,
+          "tackles": 3,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 5,
+          "name": "Yuto Nagatomo",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 90,
+          "tackles": 5,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 6,
+          "name": "Wataru Endo",
+          "position": "CM",
+          "minutes": 71,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 57,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 7,
+          "name": "Gaku Shibasaki",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 95,
+          "tackles": 2,
+          "rating": 8.3,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 8,
+          "name": "Takefusa Kubo",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 88,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 9,
+          "name": "Ayase Ueda",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 58,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 10,
+          "name": "Junya Ito",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 57,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 11,
+          "name": "Ritsu Doan",
+          "position": "ST",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 58,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 1,
+          "name": "Robin Olsen",
+          "position": "GK",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 2,
+          "name": "Victor Lindelöf",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 80,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 3,
+          "name": "Marcus Danielson",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 44,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 4,
+          "name": "Filip Helander",
+          "position": "CB",
+          "minutes": 89,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 94,
+          "tackles": 3,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 5,
+          "name": "Ludwig Augustinsson",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 33,
+          "pass_accuracy": 76,
+          "tackles": 5,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 6,
+          "name": "Sebastian Larsson",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 51,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 7,
+          "name": "Albin Ekdal",
+          "position": "CM",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 46,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 8,
+          "name": "Emil Forsberg",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 35,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 9,
+          "name": "Alexander Isak",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 10,
+          "name": "Robin Quaison",
+          "position": "ST",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 39,
+          "pass_accuracy": 78,
+          "tackles": 1,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Sweden",
+          "number": 11,
+          "name": "Viktor Gyökeres",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 42,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "5",
@@ -6324,17 +6730,453 @@
       "away_id": "21",
       "home_flag": "https://flagcdn.com/w80/tn.png",
       "away_flag": "https://flagcdn.com/w80/nl.png",
-      "home_score": "0",
-      "away_score": "2",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "home_score": "1",
+      "away_score": "3",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/25/2026 18:00",
       "group": "F",
       "matchday": "3",
       "type": "group",
       "stadium": "GEHA Field at Arrowhead Stadium",
       "stadium_city": "Kansas City",
-      "stadium_id": "6"
+      "stadium_id": "6",
+      "stats": {
+        "possession": {
+          "home": 39,
+          "away": 61
+        },
+        "shots": {
+          "home": 8,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 3,
+          "away": 4
+        },
+        "passes": {
+          "home": 215,
+          "away": 317
+        },
+        "pass_accuracy": {
+          "home": 89,
+          "away": 87
+        },
+        "xG": {
+          "home": 0.92,
+          "away": 1.83
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 1
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 15,
+          "away": 13
+        },
+        "corners": {
+          "home": 8,
+          "away": 1
+        },
+        "offsides": {
+          "home": 1,
+          "away": 1
+        },
+        "tackles": {
+          "home": 23,
+          "away": 24
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 13
+        }
+      },
+      "events": [
+        {
+          "minute": 2,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Memphis Depay"
+        },
+        {
+          "minute": 5,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Cody Gakpo"
+        },
+        {
+          "minute": 10,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Virgil van Dijk"
+        },
+        {
+          "minute": 11,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Frenkie de Jong"
+        },
+        {
+          "minute": 16,
+          "type": "yellow_card",
+          "team": "Tunisia",
+          "player": "Ghaylen Chaalali"
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "Netherlands",
+          "player": "Frenkie de Jong"
+        },
+        {
+          "minute": 55,
+          "type": "goal",
+          "team": "Tunisia",
+          "player": "Ghaylen Chaalali"
+        },
+        {
+          "minute": 73,
+          "type": "yellow_card",
+          "team": "Netherlands",
+          "player": "Daley Blind"
+        }
+      ],
+      "players": [
+        {
+          "team": "Tunisia",
+          "number": 1,
+          "name": "Bechir Ben Saïd",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 2,
+          "name": "Ali Maâloul",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 50,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 3,
+          "name": "Syam Ben Youssef",
+          "position": "CB",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 56,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 4,
+          "name": "Yassine Meriah",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 5,
+          "name": "Dylan Bronn",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 6,
+          "name": "Ghaylen Chaalali",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 44,
+          "pass_accuracy": 94,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 7,
+          "name": "Ellyes Skhiri",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 8,
+          "name": "Wahbi Khazri",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 25,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 9,
+          "name": "Seifeddine Jaziri",
+          "position": "RW",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 50,
+          "pass_accuracy": 87,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 10,
+          "name": "Youssef Msakni",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 57,
+          "pass_accuracy": 79,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Tunisia",
+          "number": 11,
+          "name": "Naïm Sliti",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 1,
+          "name": "Justin Bijlow",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 80,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 2,
+          "name": "Daley Blind",
+          "position": "LB",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 44,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 3,
+          "name": "Virgil van Dijk",
+          "position": "CB",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 32,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 4,
+          "name": "Nathan Aké",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 55,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 5,
+          "name": "Denzel Dumfries",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 71,
+          "tackles": 2,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 6,
+          "name": "Frenkie de Jong",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 53,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 7,
+          "name": "Davy Klaassen",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 50,
+          "pass_accuracy": 88,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 8,
+          "name": "Cody Gakpo",
+          "position": "LW",
+          "minutes": 77,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 9,
+          "name": "Memphis Depay",
+          "position": "RW",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 42,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 10,
+          "name": "Steven Bergwijn",
+          "position": "ST",
+          "minutes": 79,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 48,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Netherlands",
+          "number": 11,
+          "name": "Wout Weghorst",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 23,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "61",
@@ -25463,6 +26305,18 @@
       "assists": 0
     },
     {
+      "team": "Netherlands",
+      "name": "Steven Bergwijn",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "team": "Sweden",
+      "name": "Emil Forsberg",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Jordan",
       "name": "Baha' Faisal",
       "goals": 2,
@@ -25475,10 +26329,22 @@
       "assists": 0
     },
     {
+      "team": "Netherlands",
+      "name": "Frenkie de Jong",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Argentina",
       "name": "Julián Álvarez",
       "goals": 2,
       "assists": 0
+    },
+    {
+      "team": "Japan",
+      "name": "Gaku Shibasaki",
+      "goals": 1,
+      "assists": 1
     },
     {
       "team": "England",
@@ -25519,30 +26385,6 @@
     {
       "team": "Australia",
       "name": "Martin Boyle",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Qatar",
-      "name": "Homam Ahmed",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "United States",
-      "name": "Yunus Musah",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "United States",
-      "name": "Giovanni Reyna",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Netherlands",
-      "name": "Steven Bergwijn",
       "goals": 1,
       "assists": 0
     }
