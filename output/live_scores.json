@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T01:54:15.697072+00:00",
+  "updated_at": "2026-06-26T06:09:08.379187+00:00",
   "match_count": 80,
   "matches": [
     {
@@ -15264,9 +15264,9 @@
       "away_id": "13",
       "home_flag": "https://flagcdn.com/w80/tr.png",
       "away_flag": "https://flagcdn.com/w80/us.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "3",
+      "away_score": "2",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/25/2026 19:00",
       "group": "D",
@@ -15274,7 +15274,449 @@
       "type": "group",
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
-      "stadium_id": "16"
+      "stadium_id": "16",
+      "stats": {
+        "possession": {
+          "home": 55,
+          "away": 45
+        },
+        "shots": {
+          "home": 9,
+          "away": 8
+        },
+        "shots_on_target": {
+          "home": 5,
+          "away": 4
+        },
+        "passes": {
+          "home": 267,
+          "away": 204
+        },
+        "pass_accuracy": {
+          "home": 84,
+          "away": 78
+        },
+        "xG": {
+          "home": 1.73,
+          "away": 1.77
+        },
+        "yellow_cards": {
+          "home": 3,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 17,
+          "away": 13
+        },
+        "corners": {
+          "home": 5,
+          "away": 3
+        },
+        "offsides": {
+          "home": 0,
+          "away": 3
+        },
+        "tackles": {
+          "home": 20,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 6,
+          "away": 13
+        }
+      },
+      "events": [
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "Turkey",
+          "player": "Kerem Aktürkoğlu"
+        },
+        {
+          "minute": 21,
+          "type": "goal",
+          "team": "United States",
+          "player": "Ricardo Pepi"
+        },
+        {
+          "minute": 24,
+          "type": "yellow_card",
+          "team": "Turkey",
+          "player": "Zeki Çelik"
+        },
+        {
+          "minute": 25,
+          "type": "yellow_card",
+          "team": "Turkey",
+          "player": "Ferdi Kadıoğlu"
+        },
+        {
+          "minute": 63,
+          "type": "goal",
+          "team": "United States",
+          "player": "Ricardo Pepi"
+        },
+        {
+          "minute": 70,
+          "type": "goal",
+          "team": "Turkey",
+          "player": "Hakan Çalhanoğlu"
+        },
+        {
+          "minute": 70,
+          "type": "goal",
+          "team": "Turkey",
+          "player": "Kerem Aktürkoğlu"
+        },
+        {
+          "minute": 85,
+          "type": "yellow_card",
+          "team": "United States",
+          "player": "Walker Zimmerman"
+        },
+        {
+          "minute": 89,
+          "type": "yellow_card",
+          "team": "Turkey",
+          "player": "İrfan Kahveci"
+        }
+      ],
+      "players": [
+        {
+          "team": "Turkey",
+          "number": 1,
+          "name": "Uğurcan Çakır",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 10,
+          "pass_accuracy": 80,
+          "tackles": 2,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 2,
+          "name": "Zeki Çelik",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 38,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 3,
+          "name": "Merih Demiral",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 40,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 4,
+          "name": "Çağlar Söyüncü",
+          "position": "CB",
+          "minutes": 84,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 91,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 5,
+          "name": "Ferdi Kadıoğlu",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 40,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 6,
+          "name": "Hakan Çalhanoğlu",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 47,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 7,
+          "name": "İrfan Kahveci",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 89,
+          "tackles": 3,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 8,
+          "name": "Orkun Kökçü",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 44,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 8.1,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 9,
+          "name": "Cengiz Ünder",
+          "position": "RW",
+          "minutes": 73,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 8.0,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 10,
+          "name": "Kerem Aktürkoğlu",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 59,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Turkey",
+          "number": 11,
+          "name": "Burak Yılmaz",
+          "position": "ST",
+          "minutes": 69,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 52,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 1,
+          "name": "Matt Turner",
+          "position": "GK",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 20,
+          "pass_accuracy": 75,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 2,
+          "name": "Sergiño Dest",
+          "position": "LB",
+          "minutes": 66,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 24,
+          "pass_accuracy": 95,
+          "tackles": 5,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 3,
+          "name": "Walker Zimmerman",
+          "position": "CB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 4,
+          "name": "Antonee Robinson",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 49,
+          "pass_accuracy": 94,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 5,
+          "name": "Tyler Adams",
+          "position": "RB",
+          "minutes": 65,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 25,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 6,
+          "name": "Yunus Musah",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 27,
+          "pass_accuracy": 78,
+          "tackles": 3,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 7,
+          "name": "Christian Pulisic",
+          "position": "CM",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 29,
+          "pass_accuracy": 71,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 8,
+          "name": "Weston McKennie",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 46,
+          "pass_accuracy": 88,
+          "tackles": 2,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 9,
+          "name": "Giovanni Reyna",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 53,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 10,
+          "name": "Ricardo Pepi",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 60,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "United States",
+          "number": 11,
+          "name": "Brenden Aaronson",
+          "position": "ST",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 54,
+          "pass_accuracy": 82,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "62",
@@ -26194,9 +26636,9 @@
       "away_id": "15",
       "home_flag": "https://flagcdn.com/w80/py.png",
       "away_flag": "https://flagcdn.com/w80/au.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "FINISHED",
       "minute": null,
       "date": "06/25/2026 19:00",
       "group": "D",
@@ -26204,7 +26646,401 @@
       "type": "group",
       "stadium": "Levi's Stadium",
       "stadium_city": "San Francisco Bay Area (Santa Clara)",
-      "stadium_id": "15"
+      "stadium_id": "15",
+      "stats": {
+        "possession": {
+          "home": 50,
+          "away": 50
+        },
+        "shots": {
+          "home": 4,
+          "away": 5
+        },
+        "shots_on_target": {
+          "home": 0,
+          "away": 2
+        },
+        "passes": {
+          "home": 321,
+          "away": 281
+        },
+        "pass_accuracy": {
+          "home": 78,
+          "away": 81
+        },
+        "xG": {
+          "home": 0.0,
+          "away": 0.27
+        },
+        "yellow_cards": {
+          "home": 2,
+          "away": 3
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 18
+        },
+        "corners": {
+          "home": 4,
+          "away": 8
+        },
+        "offsides": {
+          "home": 4,
+          "away": 2
+        },
+        "tackles": {
+          "home": 16,
+          "away": 20
+        },
+        "interceptions": {
+          "home": 12,
+          "away": 14
+        }
+      },
+      "events": [
+        {
+          "minute": 69,
+          "type": "yellow_card",
+          "team": "Australia",
+          "player": "Mathew Ryan"
+        }
+      ],
+      "players": [
+        {
+          "team": "Paraguay",
+          "number": 1,
+          "name": "Antony Silva",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 22,
+          "pass_accuracy": 82,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 2,
+          "name": "Alberto Espínola",
+          "position": "LB",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 54,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 3,
+          "name": "Gustavo Gómez",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 4,
+          "name": "Junior Alonso",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 31,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 5,
+          "name": "Santiago Arzamendia",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 29,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 6,
+          "name": "Mathías Villasanti",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 57,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 7,
+          "name": "Miguel Almirón",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 26,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 8,
+          "name": "Óscar Romero",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 0,
+          "passes": 51,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 7.6,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 9,
+          "name": "Antonio Sanabria",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 23,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 10,
+          "name": "Ángel Romero",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 33,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Paraguay",
+          "number": 11,
+          "name": "Robert Rojas",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 1,
+          "name": "Mathew Ryan",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 19,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 2,
+          "name": "Miloš Degenek",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 73,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 3,
+          "name": "Aziz Behich",
+          "position": "CB",
+          "minutes": 60,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 85,
+          "tackles": 3,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 4,
+          "name": "Rhyan Grant",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 70,
+          "tackles": 5,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 5,
+          "name": "Trent Sainsbury",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 74,
+          "tackles": 5,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 6,
+          "name": "Ajdin Hrustic",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 23,
+          "pass_accuracy": 85,
+          "tackles": 1,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 7,
+          "name": "Jackson Irvine",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 83,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 8,
+          "name": "Mathew Leckie",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 40,
+          "pass_accuracy": 71,
+          "tackles": 1,
+          "rating": 7.2,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 9,
+          "name": "Awer Mabil",
+          "position": "RW",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 59,
+          "pass_accuracy": 76,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 10,
+          "name": "Martin Boyle",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 48,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Australia",
+          "number": 11,
+          "name": "Mitchell Duke",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 34,
+          "pass_accuracy": 85,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "64",
@@ -26289,6 +27125,12 @@
     {
       "team": "Switzerland",
       "name": "Granit Xhaka",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "team": "United States",
+      "name": "Giovanni Reyna",
       "goals": 2,
       "assists": 0
     },
@@ -26379,12 +27221,6 @@
     {
       "team": "Australia",
       "name": "Awer Mabil",
-      "goals": 1,
-      "assists": 0
-    },
-    {
-      "team": "Australia",
-      "name": "Martin Boyle",
       "goals": 1,
       "assists": 0
     }
