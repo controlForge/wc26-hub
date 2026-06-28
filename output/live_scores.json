@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T19:53:35.772692+00:00",
+  "updated_at": "2026-06-28T20:59:08.887126+00:00",
   "match_count": 88,
   "matches": [
     {
@@ -23765,16 +23765,422 @@
       "home_flag": "https://flagcdn.com/w80/za.png",
       "away_flag": "https://flagcdn.com/w80/ca.png",
       "home_score": "0",
-      "away_score": "0",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "away_score": "1",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/28/2026 12:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
-      "stadium_id": "16"
+      "stadium_id": "16",
+      "stats": {
+        "possession": {
+          "home": 43,
+          "away": 57
+        },
+        "shots": {
+          "home": 6,
+          "away": 2
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 2
+        },
+        "passes": {
+          "home": 259,
+          "away": 273
+        },
+        "pass_accuracy": {
+          "home": 83,
+          "away": 85
+        },
+        "xG": {
+          "home": 0.34,
+          "away": 0.76
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 9,
+          "away": 12
+        },
+        "corners": {
+          "home": 8,
+          "away": 6
+        },
+        "offsides": {
+          "home": 1,
+          "away": 0
+        },
+        "tackles": {
+          "home": 17,
+          "away": 22
+        },
+        "interceptions": {
+          "home": 13,
+          "away": 11
+        }
+      },
+      "events": [
+        {
+          "minute": 26,
+          "type": "yellow_card",
+          "team": "South Africa",
+          "player": "Ronwen Williams"
+        },
+        {
+          "minute": 30,
+          "type": "yellow_card",
+          "team": "Canada",
+          "player": "Alphonso Davies"
+        },
+        {
+          "minute": 33,
+          "type": "goal",
+          "team": "Canada",
+          "player": "Mark-Anthony Kaye"
+        }
+      ],
+      "players": [
+        {
+          "team": "South Africa",
+          "number": 1,
+          "name": "Ronwen Williams",
+          "position": "GK",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 16,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 2,
+          "name": "Thibang Phete",
+          "position": "LB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 47,
+          "pass_accuracy": 74,
+          "tackles": 2,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 3,
+          "name": "Siyanda Xulu",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 41,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 4,
+          "name": "Innocent Maela",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 38,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 5,
+          "name": "Thulani Serero",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 43,
+          "pass_accuracy": 81,
+          "tackles": 3,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 6,
+          "name": "Percy Tau",
+          "position": "CM",
+          "minutes": 81,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 36,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 5.5,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 7,
+          "name": "Themba Zwane",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 51,
+          "pass_accuracy": 80,
+          "tackles": 5,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 8,
+          "name": "Bongani Zungu",
+          "position": "LW",
+          "minutes": 85,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 91,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 9,
+          "name": "Lyle Foster",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 10,
+          "name": "Evidence Makgopa",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 29,
+          "pass_accuracy": 91,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "South Africa",
+          "number": 11,
+          "name": "Keagan Dolly",
+          "position": "ST",
+          "minutes": 85,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 32,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 1,
+          "name": "Milan Borjan",
+          "position": "GK",
+          "minutes": 78,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 12,
+          "pass_accuracy": 89,
+          "tackles": 1,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 2,
+          "name": "Alistair Johnston",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 41,
+          "pass_accuracy": 93,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 3,
+          "name": "Kamal Miller",
+          "position": "CB",
+          "minutes": 79,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 42,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 4,
+          "name": "Steven Vitória",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 54,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 5,
+          "name": "Sam Adekugbe",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 35,
+          "pass_accuracy": 85,
+          "tackles": 3,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 6,
+          "name": "Stephen Eustáquio",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 32,
+          "pass_accuracy": 86,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 7,
+          "name": "Mark-Anthony Kaye",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 8,
+          "name": "Alphonso Davies",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 47,
+          "pass_accuracy": 81,
+          "tackles": 1,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 9,
+          "name": "Jonathan David",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 41,
+          "pass_accuracy": 71,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 10,
+          "name": "Cyle Larin",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 26,
+          "pass_accuracy": 70,
+          "tackles": 1,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Canada",
+          "number": 11,
+          "name": "Tajon Buchanan",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 37,
+          "pass_accuracy": 94,
+          "tackles": 2,
+          "rating": 7.0,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "77",
