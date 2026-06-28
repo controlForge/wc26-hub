@@ -599,28 +599,28 @@
           "pts": 7
         },
         {
-          "name": "Ghana",
-          "flag": "https://flagcdn.com/w80/gh.png",
-          "mp": 2,
-          "w": 1,
-          "d": 1,
-          "l": 0,
-          "gf": 1,
-          "ga": 0,
-          "gd": 1,
-          "pts": 4
-        },
-        {
           "name": "Croatia",
           "flag": "https://flagcdn.com/w80/hr.png",
-          "mp": 2,
-          "w": 1,
+          "mp": 3,
+          "w": 2,
           "d": 0,
           "l": 1,
-          "gf": 3,
-          "ga": 4,
-          "gd": -1,
-          "pts": 3
+          "gf": 5,
+          "ga": 5,
+          "gd": 0,
+          "pts": 6
+        },
+        {
+          "name": "Ghana",
+          "flag": "https://flagcdn.com/w80/gh.png",
+          "mp": 3,
+          "w": 1,
+          "d": 1,
+          "l": 1,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "pts": 4
         },
         {
           "name": "Panama",

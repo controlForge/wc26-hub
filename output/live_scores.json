@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T23:00:08.853385+00:00",
+  "updated_at": "2026-06-28T00:11:16.542552+00:00",
   "match_count": 84,
   "matches": [
     {
@@ -8074,10 +8074,10 @@
       "away_id": "43",
       "home_flag": "https://flagcdn.com/w80/cd.png",
       "away_flag": "https://flagcdn.com/w80/uz.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "1",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/27/2026 19:30",
       "group": "K",
       "matchday": "3",
@@ -22438,10 +22438,10 @@
       "away_id": "41",
       "home_flag": "https://flagcdn.com/w80/co.png",
       "away_flag": "https://flagcdn.com/w80/pt.png",
-      "home_score": null,
-      "away_score": null,
-      "status": "SCHEDULED",
-      "minute": null,
+      "home_score": "0",
+      "away_score": "0",
+      "status": "IN_PLAY",
+      "minute": "live",
       "date": "06/27/2026 19:30",
       "group": "K",
       "matchday": "3",
@@ -27768,15 +27768,439 @@
       "away_flag": "https://flagcdn.com/w80/gh.png",
       "home_score": "2",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/27/2026 17:00",
       "group": "L",
       "matchday": "3",
       "type": "group",
       "stadium": "Lincoln Financial Field",
       "stadium_city": "Philadelphia",
-      "stadium_id": "10"
+      "stadium_id": "10",
+      "stats": {
+        "possession": {
+          "home": 57,
+          "away": 43
+        },
+        "shots": {
+          "home": 8,
+          "away": 3
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 1
+        },
+        "passes": {
+          "home": 321,
+          "away": 254
+        },
+        "pass_accuracy": {
+          "home": 82,
+          "away": 77
+        },
+        "xG": {
+          "home": 1.23,
+          "away": 0.68
+        },
+        "yellow_cards": {
+          "home": 4,
+          "away": 2
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 14,
+          "away": 15
+        },
+        "corners": {
+          "home": 7,
+          "away": 6
+        },
+        "offsides": {
+          "home": 3,
+          "away": 3
+        },
+        "tackles": {
+          "home": 22,
+          "away": 21
+        },
+        "interceptions": {
+          "home": 7,
+          "away": 12
+        }
+      },
+      "events": [
+        {
+          "minute": 5,
+          "type": "goal",
+          "team": "Croatia",
+          "player": "Mario Pašalić"
+        },
+        {
+          "minute": 5,
+          "type": "goal",
+          "team": "Croatia",
+          "player": "Mario Pašalić"
+        },
+        {
+          "minute": 42,
+          "type": "yellow_card",
+          "team": "Ghana",
+          "player": "Gideon Mensah"
+        },
+        {
+          "minute": 57,
+          "type": "goal",
+          "team": "Ghana",
+          "player": "Abdul Fatawu Issahaku"
+        },
+        {
+          "minute": 61,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Ante Rebić"
+        },
+        {
+          "minute": 64,
+          "type": "yellow_card",
+          "team": "Croatia",
+          "player": "Duje Ćaleta-Car"
+        }
+      ],
+      "players": [
+        {
+          "team": "Croatia",
+          "number": 1,
+          "name": "Dominik Livaković",
+          "position": "GK",
+          "minutes": 63,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 13,
+          "pass_accuracy": 85,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 2,
+          "name": "Josip Juranović",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 57,
+          "pass_accuracy": 87,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 3,
+          "name": "Duje Ćaleta-Car",
+          "position": "CB",
+          "minutes": 75,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 80,
+          "tackles": 0,
+          "rating": 5.9,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 4,
+          "name": "Dejan Lovren",
+          "position": "CB",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 39,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 5,
+          "name": "Borna Sosa",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 47,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 6,
+          "name": "Marcelo Brozović",
+          "position": "CM",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 49,
+          "pass_accuracy": 92,
+          "tackles": 3,
+          "rating": 7.5,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 7,
+          "name": "Luka Modrić",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 79,
+          "tackles": 4,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 8,
+          "name": "Ivan Perišić",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 9,
+          "name": "Andrej Kramarić",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 52,
+          "pass_accuracy": 95,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 10,
+          "name": "Mario Pašalić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 1,
+          "passes": 27,
+          "pass_accuracy": 83,
+          "tackles": 0,
+          "rating": 7.8,
+          "is_sub": false
+        },
+        {
+          "team": "Croatia",
+          "number": 11,
+          "name": "Ante Rebić",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 27,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 7.4,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 1,
+          "name": "Lawrence Ati-Zigi",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 74,
+          "tackles": 0,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 2,
+          "name": "Daniel Amartey",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "passes": 25,
+          "pass_accuracy": 71,
+          "tackles": 5,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 3,
+          "name": "Abdul-Rahman Baba",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 45,
+          "pass_accuracy": 88,
+          "tackles": 0,
+          "rating": 6.9,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 4,
+          "name": "Gideon Mensah",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 36,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 5,
+          "name": "Thomas Partey",
+          "position": "RB",
+          "minutes": 88,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 29,
+          "pass_accuracy": 70,
+          "tackles": 4,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 6,
+          "name": "Mohammed Kudus",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "shots": 1,
+          "passes": 20,
+          "pass_accuracy": 91,
+          "tackles": 1,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 7,
+          "name": "André Ayew",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 30,
+          "pass_accuracy": 75,
+          "tackles": 5,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 8,
+          "name": "Jordan Ayew",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 30,
+          "pass_accuracy": 78,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 9,
+          "name": "Kamaldeen Sulemana",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 51,
+          "pass_accuracy": 75,
+          "tackles": 2,
+          "rating": 6.7,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 10,
+          "name": "Abdul Fatawu Issahaku",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 40,
+          "pass_accuracy": 89,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Ghana",
+          "number": 11,
+          "name": "Antoine Semenyo",
+          "position": "ST",
+          "minutes": 62,
+          "goals": 1,
+          "assists": 0,
+          "shots": 3,
+          "passes": 29,
+          "pass_accuracy": 89,
+          "tackles": 2,
+          "rating": 7.1,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "69",
@@ -30177,6 +30601,12 @@
       "assists": 0
     },
     {
+      "team": "Croatia",
+      "name": "Luka Modrić",
+      "goals": 2,
+      "assists": 0
+    },
+    {
       "team": "Jordan",
       "name": "Baha' Faisal",
       "goals": 2,
@@ -30185,6 +30615,12 @@
     {
       "team": "Portugal",
       "name": "Rafael Leão",
+      "goals": 2,
+      "assists": 0
+    },
+    {
+      "team": "Croatia",
+      "name": "Mario Pašalić",
       "goals": 2,
       "assists": 0
     },
@@ -30221,18 +30657,6 @@
     {
       "team": "England",
       "name": "Raheem Sterling",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "team": "Brazil",
-      "name": "Neymar",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "team": "Saudi Arabia",
-      "name": "Salman Al-Faraj",
       "goals": 1,
       "assists": 1
     }
