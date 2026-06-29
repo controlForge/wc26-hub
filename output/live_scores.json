@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T17:47:36.530195+00:00",
-  "match_count": 89,
+  "updated_at": "2026-06-29T19:54:11.151028+00:00",
+  "match_count": 90,
   "matches": [
     {
       "id": "6",
@@ -19228,17 +19228,435 @@
       "away_id": "22",
       "home_flag": "https://flagcdn.com/w80/br.png",
       "away_flag": "https://flagcdn.com/w80/jp.png",
-      "home_score": "0",
+      "home_score": "2",
       "away_score": "1",
-      "status": "IN_PLAY",
-      "minute": "live",
+      "status": "FINISHED",
+      "minute": null,
       "date": "06/29/2026 12:00",
       "group": "R32",
       "matchday": "4",
       "type": "r32",
       "stadium": "NRG Stadium",
       "stadium_city": "Houston",
-      "stadium_id": "5"
+      "stadium_id": "5",
+      "stats": {
+        "possession": {
+          "home": 59,
+          "away": 41
+        },
+        "shots": {
+          "home": 4,
+          "away": 6
+        },
+        "shots_on_target": {
+          "home": 2,
+          "away": 1
+        },
+        "passes": {
+          "home": 343,
+          "away": 232
+        },
+        "pass_accuracy": {
+          "home": 87,
+          "away": 91
+        },
+        "xG": {
+          "home": 1.1,
+          "away": 0.51
+        },
+        "yellow_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "red_cards": {
+          "home": 0,
+          "away": 0
+        },
+        "fouls": {
+          "home": 8,
+          "away": 8
+        },
+        "corners": {
+          "home": 9,
+          "away": 2
+        },
+        "offsides": {
+          "home": 3,
+          "away": 4
+        },
+        "tackles": {
+          "home": 23,
+          "away": 25
+        },
+        "interceptions": {
+          "home": 9,
+          "away": 9
+        }
+      },
+      "events": [
+        {
+          "minute": 7,
+          "type": "goal",
+          "team": "Brazil",
+          "player": "Casemiro"
+        },
+        {
+          "minute": 14,
+          "type": "yellow_card",
+          "team": "Brazil",
+          "player": "Gabriel Jesus"
+        },
+        {
+          "minute": 50,
+          "type": "goal",
+          "team": "Brazil",
+          "player": "Casemiro"
+        },
+        {
+          "minute": 90,
+          "type": "goal",
+          "team": "Japan",
+          "player": "Junya Ito"
+        },
+        {
+          "minute": 90,
+          "type": "yellow_card",
+          "team": "Japan",
+          "player": "Eiji Kawashima"
+        }
+      ],
+      "players": [
+        {
+          "team": "Brazil",
+          "number": 1,
+          "name": "Alisson",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 15,
+          "pass_accuracy": 73,
+          "tackles": 1,
+          "rating": 6.0,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 2,
+          "name": "Danilo",
+          "position": "LB",
+          "minutes": 83,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 28,
+          "pass_accuracy": 78,
+          "tackles": 2,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 3,
+          "name": "Marquinhos",
+          "position": "CB",
+          "minutes": 72,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 26,
+          "pass_accuracy": 90,
+          "tackles": 3,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 4,
+          "name": "Éder Militão",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 72,
+          "tackles": 1,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 5,
+          "name": "Alex Sandro",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 20,
+          "pass_accuracy": 75,
+          "tackles": 4,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 6,
+          "name": "Casemiro",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 77,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 7,
+          "name": "Fabinho",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 23,
+          "pass_accuracy": 89,
+          "tackles": 4,
+          "rating": 6.5,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 8,
+          "name": "Neymar",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 44,
+          "pass_accuracy": 84,
+          "tackles": 0,
+          "rating": 6.1,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 9,
+          "name": "Gabriel Jesus",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 48,
+          "pass_accuracy": 75,
+          "tackles": 0,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 10,
+          "name": "Vinícius Júnior",
+          "position": "ST",
+          "minutes": 87,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 60,
+          "pass_accuracy": 93,
+          "tackles": 1,
+          "rating": 6.6,
+          "is_sub": false
+        },
+        {
+          "team": "Brazil",
+          "number": 11,
+          "name": "Raphinha",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 21,
+          "pass_accuracy": 81,
+          "tackles": 0,
+          "rating": 7.0,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 1,
+          "name": "Eiji Kawashima",
+          "position": "GK",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 21,
+          "pass_accuracy": 84,
+          "tackles": 2,
+          "rating": 7.3,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 2,
+          "name": "Hiroki Sakai",
+          "position": "LB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 24,
+          "pass_accuracy": 84,
+          "tackles": 1,
+          "rating": 7.1,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 3,
+          "name": "Maya Yoshida",
+          "position": "CB",
+          "minutes": 82,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 23,
+          "pass_accuracy": 82,
+          "tackles": 1,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 4,
+          "name": "Takehiro Tomiyasu",
+          "position": "CB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "passes": 29,
+          "pass_accuracy": 79,
+          "tackles": 1,
+          "rating": 5.7,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 5,
+          "name": "Yuto Nagatomo",
+          "position": "RB",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "passes": 39,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 6,
+          "name": "Wataru Endo",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 37,
+          "pass_accuracy": 86,
+          "tackles": 0,
+          "rating": 5.8,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 7,
+          "name": "Gaku Shibasaki",
+          "position": "CM",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 36,
+          "pass_accuracy": 70,
+          "tackles": 3,
+          "rating": 6.2,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 8,
+          "name": "Takefusa Kubo",
+          "position": "LW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "passes": 37,
+          "pass_accuracy": 87,
+          "tackles": 0,
+          "rating": 6.8,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 9,
+          "name": "Ayase Ueda",
+          "position": "RW",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 50,
+          "pass_accuracy": 92,
+          "tackles": 0,
+          "rating": 5.6,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 10,
+          "name": "Junya Ito",
+          "position": "ST",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "passes": 24,
+          "pass_accuracy": 70,
+          "tackles": 0,
+          "rating": 6.4,
+          "is_sub": false
+        },
+        {
+          "team": "Japan",
+          "number": 11,
+          "name": "Ritsu Doan",
+          "position": "ST",
+          "minutes": 67,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "passes": 54,
+          "pass_accuracy": 90,
+          "tackles": 0,
+          "rating": 6.3,
+          "is_sub": false
+        }
+      ]
     },
     {
       "id": "83",
@@ -26005,6 +26423,26 @@
           "is_sub": false
         }
       ]
+    },
+    {
+      "id": "91",
+      "home": "Brazil",
+      "away": "TBD",
+      "home_id": "9",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/br.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/05/2026 16:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "MetLife Stadium",
+      "stadium_city": "New York/New Jersey (East Rutherford)",
+      "stadium_id": "11"
     },
     {
       "id": "3",
