@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T01:35:53.634822+00:00",
-  "match_count": 88,
+  "updated_at": "2026-06-29T06:23:12.228754+00:00",
+  "match_count": 89,
   "matches": [
     {
       "id": "6",
@@ -24221,6 +24221,26 @@
       "stadium": "SoFi Stadium",
       "stadium_city": "Los Angeles (Inglewood)",
       "stadium_id": "16"
+    },
+    {
+      "id": "90",
+      "home": "South Africa",
+      "away": "TBD",
+      "home_id": "2",
+      "away_id": "0",
+      "home_flag": "https://flagcdn.com/w80/za.png",
+      "away_flag": "",
+      "home_score": "0",
+      "away_score": "0",
+      "status": "SCHEDULED",
+      "minute": null,
+      "date": "07/04/2026 12:00",
+      "group": "R16",
+      "matchday": "5",
+      "type": "r16",
+      "stadium": "NRG Stadium",
+      "stadium_city": "Houston",
+      "stadium_id": "5"
     },
     {
       "id": "14",
